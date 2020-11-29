@@ -1,9 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
 import Posts from './Components/Posts';
 import { firestore } from './Config/Firebase/db_config';
 import { collectionofIdsAndDocs } from './utilities';
-
+import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import './App.css';
+import Home from './Pages/FirstPage';
+import Second from './Pages/SecondPage';
 function App() {
 
 
@@ -47,13 +49,18 @@ function App() {
     
   };
 
+  
+
   return (
-    
-    <div className="App">
-      <Posts posts = {posts} onCreate={handleCreate}/>
-      {console.log("Post is " + typeof(post))}
-    {console.log("Posts is " + typeof(posts))}  
-    </div>
+    <Router>
+      <Switch>
+        <Route path="/" exact component={Home}/>
+        <Route path="/second" exact component={Second}/>
+      
+        <Posts posts = {posts} onCreate={handleCreate}/>
+      </Switch>
+    </Router>
+   
   );
 }
 
