@@ -1,6 +1,6 @@
 import React from 'react'
 import './SubjectCard.css';
-export default function SubjectCard({props}) {
+export default function SubjectCard(props) {
     
     return (
         <div className="container">

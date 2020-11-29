@@ -1,13 +1,14 @@
 .container {
-    width: 100vw;
-    height: 100vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 
 .card {
-    width: 25rem;
+    width: 75rem;
+    margin-bottom: 80px;
     border-radius: 1rem;
     background: white;
     box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.15);
