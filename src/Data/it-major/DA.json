@@ -1,0 +1,74 @@
+[
+    {
+        "id": "37151",
+        "name": "Introduction to Statistics",
+        "link": "https://handbook.uts.edu.au/subjects/37151.html",
+        "description": "This subject gives an introduction to probability theory and statistics. Students learn how to describe random phenomena using the language of probability, and how this is applied in a statistical framework to solve real world problems. The first half of the subject introduces the students to important concepts in probability, such as random variables and their probability distributions. Fundamental properties such as expectations, independence and the Central Limit Theorem are discussed. The second half of the course introduces classical statistical inference and its connection to probability theory. Sampling distributions and their use in constructing confidence intervals and hypothesis testing are discussed. The course ends by introducing simple linear regression and analysis of variance techniques."
+    },
+    {
+        "id": "31250",
+        "name": "Introduction to Data Analytics",
+        "link": "https://handbook.uts.edu.au/subjects/31250.html",
+        "description": "Data analytics is the art and science of turning large quantities of usually incomprehensive data into meaningful and commercially valuable information. It is the basis of modern computer analytics and intelligence. It includes a number of IT areas, such as statistical methods for identifying patterns in data and making inferences; database technologies for managing the data sets to be mined; a range of intelligent technologies that derive automatically patterns from data; and visualisation and other multimedia techniques that support human pattern discovery capabilities. This subject offers the foundations of data analytics, data mining and knowledge discovery methods and their application to practical problems. It brings together the state-of-the-art research and practical techniques in data analytics, providing students with the necessary knowledge and capacity to initiate and conduct data mining research and development projects, and professionally communicate with analytics experts."
+    },
+    {
+        "id": "31005",
+        "name": "Machine Learning",
+        "link": "https://handbook.uts.edu.au/subjects/31005.html",
+        "description": "Machine learning is an exciting field studying of how intelligent agents can learn from and adapt to experience and how to realise such capacity on digital computers. It is applied in many fields of business, industry and science to discover new information and knowledge. At the heart of machine learning are the knowledge discovery algorithms. This subject builds on previous data analytics subjects to give an understanding of how both basic and more powerful algorithms work. It consists of both hands-on practice and fundamental theories. Students learn important techniques in the field by implementation and theoretical analysis. The subject also introduces practical applications of machine learning, especially in the field of artificial intelligence."
+    },
+    {
+        "id": "32146",
+        "name": "Data Visualisation and Visual Analytics",
+        "link": "https://handbook.uts.edu.au/subjects/32146.html",
+        "description": "This subject covers the core data visualisation and visual interaction (or navigation) technologies that support the visual analytics and decision-making processes. Students study the latest data visualisation articles and the practice of cutting-edge data visualisation and visual analysis software. The subject provides an essential understanding of the procedure (loop) and the methodology of visual data analytics. It discusses the human involvement (or input) in the loop of analytical reasoning facilitated by interactive visual interfaces. On successful completion of this subject, students are capable of designing and evaluating various advanced visualisation interfaces that can be directly applied into the loop of visual data mining or visual analytics to enable them to become data visualisation designers and visual data analysts."
+    },
+    {
+        "id": "41004",
+        "name": "AI/Analytics Capstone Project",
+        "link": "https://handbook.uts.edu.au/subjects/41004.html",
+        "description": "This subject brings together the full skill set learned by students in data analytics. Students undertake a data analytics project as part of a team, manage the investigation, document their progress, communicate their findings and reflect on their learning. Projects are set out to solve real-world problems in academic research or industry and may include:  data generation/collection data processing/cleaning data modelling/analysis interpretation and communication of results.  Throughout the project, students are supported by an academic mentor and assessment through written reports and an oral presentation is in line with expectations from academic/industry."
+    },
+    {
+        "id": "48024",
+        "name": "Applications Programming",
+        "link": "https://handbook.uts.edu.au/subjects/48024.html",
+        "description": "This subject teaches students how to design, develop and evaluate software systems to meet predefined quality characteristics of functionality (suitability) and usability (understandability, learnability, operability, compliance). Software solutions are implemented using Java. Concepts, theories and technologies underlying the methods and techniques are introduced and explained as required. Students apply all that they have learned to develop and implement the architecture of a business system."
+    },
+    {
+        "id": "31243",
+        "name": "AI/Analytics Capstone Project B",
+        "link": "https://handbook.uts.edu.au/subjects/31243.html",
+        "description": "Data mining and knowledge discovery is the kernel of contemporary computer analytics and intelligence. The process consists of several iterative steps, including data pre-processing and transformation, the actual data mining and pattern discovery steps, and putting discovered information and knowledge into action. This subject is focused on the practical implementation of this process to large data sets from different areas of human endeavour. It provides students with exposure to real-world analytics scenarios, and with expertise and experience in the application of the data mining techniques and in professional communication of analytics results. Students choose a real-world project of interest and, with the help of a staff mentor, research, plan and produce an outcome. They communicate the results of the project in a detailed report."
+    },
+    {
+        "id": "31253",
+        "name": "Database Programming",
+        "link": "https://handbook.uts.edu.au/subjects/31253.html",
+        "description": "This subject teaches students how to design, develop and evaluate database programming and administration solutions to meet pre-defined quality characteristics of functionality (suitability, security), usability (operability), efficiency (time behaviour, resource utilisation), and maintainability (changeability, testability). Database programming and administration solutions are implemented using Oracle 11G, SQL*Plus and PL/SQL. Concepts, theories and technologies underlying the methods and techniques are introduced and explained as required. Students apply all that they have learnt to develop a small application to solve a database problem."
+    },
+    {
+        "id": "31256",
+        "name": "Image Processing and Pattern Recognition",
+        "link": "https://handbook.uts.edu.au/subjects/31256.html",
+        "description": "Images and videos contain enormous amounts of information that can be extracted automatically by means of image processing and pattern recognition techniques. The extracted information is at the basis of many innovative applications such as video surveillance, diagnosis from medical images, automatic indexing and retrieval of multimedia data, human-computer interaction. This subject gives students the ability to understand the principles of image processing and pattern recognition and develop software for the automatic analysis and interpretation of images and videos. The goal of this subject is to teach skills used by professional engineers working at developing image processing and computer vision products, services and solutions. During the project students apply the knowledge they have gained to scope, solve, test and communicate a solution to a real-world image processing problem in a collaborative team-based environment. Examples include detection of people and objects in video surveillance, automated diagnosis from medical images, and detection and recognition of faces in imagery."
+    },
+    {
+        "id": "37131",
+        "name": "Introduction to Linear Dynamical Systems",
+        "link": "https://handbook.uts.edu.au/subjects/37131.html",
+        "description": "Problems as diverse as analysing the effects of interest rates or ecological change involve the study of systems that evolve in various ways. This subject provides an introduction to the modelling of change through differential equations and allows students to see something of the power of mathematics through the interplay between linear algebra and differential equations."
+    },
+    {
+        "id": "31243",
+        "name": "AI/Analytics Capstone Project B",
+        "link": "https://handbook.uts.edu.au/subjects/31243.html",
+        "description": "Data mining and knowledge discovery is the kernel of contemporary computer analytics and intelligence. The process consists of several iterative steps, including data pre-processing and transformation, the actual data mining and pattern discovery steps, and putting discovered information and knowledge into action. This subject is focused on the practical implementation of this process to large data sets from different areas of human endeavour. It provides students with exposure to real-world analytics scenarios, and with expertise and experience in the application of the data mining techniques and in professional communication of analytics results. Students choose a real-world project of interest and, with the help of a staff mentor, research, plan and produce an outcome. They communicate the results of the project in a detailed report."
+    },
+    {
+        "id": "31256",
+        "name": "Image Processing and Pattern Recognition",
+        "link": "https://handbook.uts.edu.au/subjects/31256.html",
+        "description": "Images and videos contain enormous amounts of information that can be extracted automatically by means of image processing and pattern recognition techniques. The extracted information is at the basis of many innovative applications such as video surveillance, diagnosis from medical images, automatic indexing and retrieval of multimedia data, human-computer interaction. This subject gives students the ability to understand the principles of image processing and pattern recognition and develop software for the automatic analysis and interpretation of images and videos. The goal of this subject is to teach skills used by professional engineers working at developing image processing and computer vision products, services and solutions. During the project students apply the knowledge they have gained to scope, solve, test and communicate a solution to a real-world image processing problem in a collaborative team-based environment. Examples include detection of people and objects in video surveillance, automated diagnosis from medical images, and detection and recognition of faces in imagery."
+    }
+]

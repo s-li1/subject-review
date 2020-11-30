@@ -1,0 +1,86 @@
+[
+    {
+        "id": "48024",
+        "name": "Applications Programming",
+        "link": "https://handbook.uts.edu.au/subjects/48024.html",
+        "description": "This subject teaches students how to design, develop and evaluate software systems to meet predefined quality characteristics of functionality (suitability) and usability (understandability, learnability, operability, compliance). Software solutions are implemented using Java. Concepts, theories and technologies underlying the methods and techniques are introduced and explained as required. Students apply all that they have learned to develop and implement the architecture of a business system."
+    },
+    {
+        "id": "31251",
+        "name": "Data Structures and Algorithms",
+        "link": "https://handbook.uts.edu.au/subjects/31251.html",
+        "description": "This subject teaches students how to design, develop and evaluate data structures and algorithms to meet predefined quality characteristics of functionality (suitability) and usability (understandability, learnability, operability, compliance). Software solutions are implemented using C++. Concepts, theories and technologies underlying the methods and techniques are introduced and explained as required."
+    },
+    {
+        "id": "41025",
+        "name": "Introduction to Software Development",
+        "link": "https://handbook.uts.edu.au/subjects/41025.html",
+        "description": "This subject introduces students to the fundamentals of contemporary software development. An overview of the agile and non-agile software development principles, methods, tools and techniques is presented. Current trends and challenges in the practice of software development are explored. In this subject, students learn how to design, develop and evaluate software that implements commercially realistic but manageably small software requirements. Most often the task is to modify or extend some existing software feature or function but can also be to create new features or functions. Peer learning and collaboration are encouraged but, ultimately, each student must complete their tasks individually. The primary objective is that students experience, understand the importance of, and can apply sound professional practices of software development."
+    },
+    {
+        "id": "31260",
+        "name": "Fundamentals of Interaction Design",
+        "link": "https://handbook.uts.edu.au/subjects/31260.html",
+        "description": "This subject focuses on the design, evaluation and implementation of interactive computing systems for human use within actual situations. Students gain an understanding of human\u2013computer interaction (HCI) and interaction design principles, including the main concepts, tools and techniques available to build human-centred systems. The subject considers the effects of the different metaphors for human activity that designers use in their systems and how human-centred design and evaluation methods can improve the usability of computer systems."
+    },
+    {
+        "id": "41026",
+        "name": "Advanced Software Development",
+        "link": "https://handbook.uts.edu.au/subjects/41026.html",
+        "description": "This subject discusses the advanced software development principles, methods, tools and techniques. In this subject students learn how to design, develop and evaluate a commercially realistic software system meeting predefined functional and non-functional requirements. The project is performed by highly autonomous teams that, while supervised and directed, are ultimately responsible for the project and delivery of the expected outcomes. The students experience, understand the importance of, and can apply sound practices of software development from team formation and management, project planning and management; and all the primary processes of software design, construction, evaluation and delivery. The students must also make informed design decisions, describe how those decisions were reached and justify those decisions."
+    },
+    {
+        "id": "48433",
+        "name": "Software Architecture",
+        "link": "https://handbook.uts.edu.au/subjects/48433.html",
+        "description": "This subject teaches students current industry practices to design, develop and evaluate software architecture meeting predefined quality characteristics of functionality (suitability, security), usability (operability), efficiency (time behaviour, resource utilisation) and maintainability (changeability, testability). Concepts, theories and technologies underlying the methods and techniques are introduced and explained as required. Students apply the industry practices that they have learned to develop an architecture of a business system."
+    },
+    {
+        "id": "31777",
+        "name": "Advanced Interaction Design",
+        "link": "https://handbook.uts.edu.au/subjects/31777.html",
+        "description": "This subject focuses on the concept of user experience (UX) in Interaction design. UX is defined as a person's perceptions and responses that result from the use of a digital product, system or service. Understanding how to approach UX in design is a major focus in interaction design because the quality of UX can affect people's adoption of a particular designed technology. For many technology design companies, paying attention to how people experience their products is the edge that can potentially set them apart from their competition. However, designing UX effectively is difficult because the term UX is very problematic, meaning very different things to different people, in academic research and in industry.  Firstly, students are provided with some conceptual tools to help them talk about UX productively: to identify, describe, analyse and critique real-life experiences with various types of digital technologies. To put these skills into practice, students are introduced to a range of current and emergent human-computer interactions such as mobile and social computing, pervasive and ubiquitous computing, quantified self, and the 'internet of things' (IoT). Through discussing and exploring particular characteristics, interaction styles, affordances, and the ways these technologies are used in our everyday lives, students develop the skills to be able to understand the types of user experiences that arise from people's interactions with particular technologies, while pursuing specific goals, whether alone or with others, carried out in particular contexts. Through this, they understand how to consider relevant and appropriate user experiences to support when designing for different kinds of human-computer interactions. Students also learn methods, concepts, and techniques used in design activities to support for a specific user experience. This includes user research techniques, sketching, storyboarding, prototyping and evaluation approaches that can support them to design appropriate and engaging user experiences. They hone their skills through responding to a real-world problem, designing a technology solution that not only meets the users' needs effectively but, more importantly, supports desirable and potentially engaging experiences. By building upon students' prior understandings of fundamental interaction design concepts and processes, it is expected that when they successfully complete this subject, they are able to not only design useful and usable technologies, but also technologies that are optimised to support the users' experience."
+    },
+    {
+        "id": "31242",
+        "name": "Advanced Internet Programming",
+        "link": "https://handbook.uts.edu.au/subjects/31242.html",
+        "description": "In this subject students create sophisticated web applications for deployment to production. The subject provides knowledge and skills in advanced internet technologies particularly related to server-side internet programming and business-to-business systems. It covers topics relevant to advanced internet programming including web development stacks, n-tier architectures, standards, transactions, security, dependency injection, layering, web-service integration, and deployment. The subject is run as a simulation of a technology-based startup or an in-house software development project. Students create a prototype for a simple idea. Throughout the session, students iteratively improve their prototype and apply the subject content to ensure that their prototype is secure, reliable, maintainable, well-designed and can handle real-world customers. Hands-on laboratory exercises and group activities give students practice in internet programming and develop their ability to problem-solve, collaborate and develop communication skills. Outside class, students are required to engage in self-directed learning and with their professional community."
+    },
+    {
+        "id": "41889",
+        "name": "Application Development in the iOS Environment",
+        "link": "https://handbook.uts.edu.au/subjects/41889.html",
+        "description": "This subject is an introduction to iOS application development. Students learn the Swift programming language, the iOS development environment and explore the iOS app frameworks. The subject has an emphasis on giving students practical exposure to software development in the iOS environment."
+    },
+    {
+        "id": "31927",
+        "name": "Application Development with .NET",
+        "link": "https://handbook.uts.edu.au/subjects/31927.html",
+        "description": "This subject introduces C#, Visual Studio and the .NET development environment. The emphasis is on examining the .NET framework and the practicalities of developing software in this setting using the C# language."
+    },
+    {
+        "id": "41001",
+        "name": "Cloud Computing and Software as a Service",
+        "link": "https://handbook.uts.edu.au/subjects/41001.html",
+        "description": "This subject introduces students to cloud computing fundamentals. Following a brief introduction to cloud computing, the following topics are covered: cloud architecture, infrastructure-as-a-service, platform-as-a-service, software-as-a-service, virtualisation and multi-tenancy. For the first assignment, students are expected to work in a group and develop a research report that critically analyses an aspect of cloud computing. Subsequently, students are exposed to cloud-based software engineering skills using an existing cloud platform. For the second assignment, students are expected to work in a group and develop a cloud-based software application."
+    },
+    {
+        "id": "31253",
+        "name": "Database Programming",
+        "link": "https://handbook.uts.edu.au/subjects/31253.html",
+        "description": "This subject teaches students how to design, develop and evaluate database programming and administration solutions to meet pre-defined quality characteristics of functionality (suitability, security), usability (operability), efficiency (time behaviour, resource utilisation), and maintainability (changeability, testability). Database programming and administration solutions are implemented using Oracle 11G, SQL*Plus and PL/SQL. Concepts, theories and technologies underlying the methods and techniques are introduced and explained as required. Students apply all that they have learnt to develop a small application to solve a database problem."
+    },
+    {
+        "id": "41113",
+        "name": "Software Development Studio 1",
+        "link": "https://handbook.uts.edu.au/subjects/41113.html",
+        "description": "This studio subject focuses on aspects of practical software development. The overall aim of this studio is to provide a rich and attractive practice-based learning environment for software development students to deeply learn and become professionally competent. To realise these aims the studio focuses on the methods of reflective design practice, teamwork, mentoring, and deep learning techniques, including immersion in difficult problems within a complex environment. The subject allows students to move towards senior roles in teams, expects students to become accomplished in reflection, and demonstrate application of software development skills, with an accent on design."
+    },
+    {
+        "id": "41114",
+        "name": "Software Development Studio 2",
+        "link": "https://handbook.uts.edu.au/subjects/41114.html",
+        "description": "This studio subject focuses on aspects of practical software development. The overall aim of this studio is to provide a rich and attractive practice-based learning environment for software development students to deeply learn and become professionally competent. To realise these aims the studio focuses on the methods of reflective design practice, teamwork, mentoring, and deep learning techniques, including immersion in difficult problems within a complex environment. The subject allows students to move towards senior roles in teams, expects students to become accomplished in reflection, and demonstrate application of software development skills, with an accent on design."
+    }
+]

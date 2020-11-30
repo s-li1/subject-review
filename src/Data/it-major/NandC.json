@@ -1,0 +1,110 @@
+[
+    {
+        "id": "31277",
+        "name": "Routing and Switching Essentials",
+        "link": "https://handbook.uts.edu.au/subjects/31277.html",
+        "description": "This subject extends the work done in the prerequisite subject. Students will have the opportunity to both develop sound knowledge and skills to pursue a networking specialisation or to develop a clear model of how networks can impact network-based applications. Students learn the role of routing protocols and how to compare them; how to design construct and implement small to medium-sized intranets; and how to perform basic management and security tasks. The role of TCP/IP, ICMP and other protocols in IP networks are evaluated. Students also learn how CISCO routers and switches are used for the practical work."
+    },
+    {
+        "id": "31275",
+        "name": "Mobile Networking",
+        "link": "https://handbook.uts.edu.au/subjects/31275.html",
+        "description": "Wireless networks, such as cellular, WiFi, sensor, satellite and near field communication networks, provide ubiquitous connections to devices and end-users, and are the underlying technologies and systems for almost every industry today. This subject covers the principles and applications of wireless telecommunication networks, and their integration with the internet. The emphasis is on the concepts, infrastructure and protocols of these networks, and the use of these networks in applications with different requirements of supporting devices and mobility. This subject also offers extensive hands-on experience via solving industry-related problems, and provides opportunities for research innovation via group project work. This subject provides students with both fundamental knowledge and practical usage experience in wireless networks, and is suitable for students over a wide range of engineering courses."
+    },
+    {
+        "id": "41900",
+        "name": "Cryptography",
+        "link": "https://handbook.uts.edu.au/subjects/41900.html",
+        "description": "Cryptographic techniques have been developed to preserve data confidentiality and ensure data integrity, and have become indispensable in cybersecurity, such as securing wireless networks, protecting online payment and cryptocurrencies. This subject provides students with principles of cryptography, including symmetric/asymmetric ciphers, cryptographic hash functions, message authentication codes and digital signatures. This subject also introduces popular applications of cryptography and cryptographic designs in blockchain. Student practical works include analysis of cryptographic techniques, operations on popular cryptographic tools and attacks on cryptography. With practical cryptographic applications in course projects, students gain a deep understanding of the importance of cryptography in security."
+    },
+    {
+        "id": "48730",
+        "name": "Cybersecurity",
+        "link": "https://handbook.uts.edu.au/subjects/48730.html",
+        "description": "Cyber security is a major issue for enterprises, with breaches of security possibly being punished by legal sanctions, financial loss, or loss of customer confidence. This subject consolidates the student's understanding of cyber security by considering security principles from both a people management and a technical perspective, exploring security technologies commonly used in industry. Topics include cyber attacks and defenses, web security, firewalls, intrusion detection systems along with security services such as confidentiality, integrity, authentication (CIA) and technologies such as IPSec, SSL, PGP and S/MIME. Students doing this subject are well placed to contribute to the cyber security solution of a modern organisation using industry-based tools and solutions."
+    },
+    {
+        "id": "31261",
+        "name": "Internetworking Project",
+        "link": "https://handbook.uts.edu.au/subjects/31261.html",
+        "description": "This subject consolidates students' understanding of internetworking-related theoretical knowledge and its application to practical projects which fall under two major categories: 1. internetworking projects; and 2. internetworking applications projects. This subject also provides students with the opportunity to work collaboratively in a team environment through project specification, design, set-up and implementation. Information on how to enrol in this subject is available from the faculty's current student information."
+    },
+    {
+        "id": "31338",
+        "name": "Network Servers",
+        "link": "https://handbook.uts.edu.au/subjects/31338.html",
+        "description": "Through this subject students gain an understanding of the design principles and implementation issues for the deployment of network servers based on Windows and Linux operating systems. Techniques and skills for system administration are developed through a comprehensive sequence of laboratory activities in combination with mini-lectures and design tasks."
+    },
+    {
+        "id": "48450",
+        "name": "Real-time Operating Systems",
+        "link": "https://handbook.uts.edu.au/subjects/48450.html",
+        "description": "This subject addresses the purposes, design alternatives and uses of computer operating systems for programming in embedded systems, PC, and servers. After several weeks studying the areas of responsibility that an operating system possesses in the context of a conventional computing environment (PC and server), a treatment of operating systems in support of meeting real-time computing requirements, such as managing operating for programming on PC and server, is completed. Topics include: process management, scheduling and inter-process communication, memory management and I/O device management. Comparisons of designs including monolithic and microkernel approaches. Embedded systems are explored as case studies for investigating operating systems modifications. The Linux kernel is studied as an example of a UNIX environment and programming exercises are completed in POSIX compliant C. Real-time systems are studied including real-time kernels and real-time CPU scheduling."
+    },
+    {
+        "id": "32009",
+        "name": "Advanced Routing Principles",
+        "link": "https://handbook.uts.edu.au/subjects/32009.html",
+        "description": "This subject focuses on routing technology and provides students with a comprehensive explanation of routing. It extends students' skills and knowledge in route optimisation and redistribution, router and routing protocol hardening, scalable interior and exterior routing protocols. The related topics are widely related to CCNA Routing and Switching: Connecting Networks and Scaling Networks and CCNP Route. The subject is run in the UTS Cisco Systems Network Academy."
+    },
+    {
+        "id": "41890",
+        "name": "Applying Network Security",
+        "link": "https://handbook.uts.edu.au/subjects/41890.html",
+        "description": "In the network security subject students learn about the theory underlying computer-security. This subject applies this theory to practice by using material based on the Cisco Network Security course. The emphasis is on network security appliances and networking infrastructure such as firewalls, access control, secure network design and Virtual Private Networks. Students work collaboratively throughout the session. From week 2 students form groups of three and all lab work is a shared experience. All additional activities, such as researching concepts, exploring networking challenges and building the required networks, are achieved by students working cooperatively. Groups are also encouraged to share their findings with other groups, and while most assessments are individual, this shared knowledge contributes positively to the whole learning experience."
+    },
+    {
+        "id": "41891",
+        "name": "Cloud Computing Infrastructure",
+        "link": "https://handbook.uts.edu.au/subjects/41891.html",
+        "description": "Complementing the existing cloud computing subjects, this subject introduces the concepts and implementation of cloud computing infrastructure. Topics such as cloud architecture, virtualisation and storage technologies, and data centre fundamentals, as well as security and compliance in the cloud, are explored. This subject is heavily influenced by industry interaction, and includes hands-on labs and workshops using commonly found tools within the cloud infrastructure industry."
+    },
+    {
+        "id": "42036",
+        "name": "Cyber Security for Mobile Platforms",
+        "link": "https://handbook.uts.edu.au/subjects/42036.html",
+        "description": "Mobile devices with their hugely increased usage of various applications and services have attracted a plethora of possible attacks. Organisations and businesses have to adapt and deploy special security measures while users face new generation of security threats. This subject provides an in-depth technical overview of the new security risks and threats of modern mobile platforms and operating systems, and their implications. It also introduces mobile threats ranging The subject also covers the security of enterprise networks, while BYOD (Bring Your Own Device) model is being widely adopted in corporate and small/medium size enterprise networks. This poses significant additional and new threats to network security administrators. The subject covers how Shadow IT solutions might not be relevant and how administrators should adapt to circumvent insider attacks enabled by BYOD. The subject takes practice-based learning allowing students to perform penetrations tests to some locally set private networks. It also uncovers some limitations of one the most popular tools to trace back information leakage in mobile apps by giving the students the possibility to demonstrate their own covert channel techniques. Finally, the students are able to adapt a regular network firewalling policy to mobile environment and observe the possible threats and circumvention techniques."
+    },
+    {
+        "id": "48436",
+        "name": "Digital Forensics",
+        "link": "https://handbook.uts.edu.au/subjects/48436.html",
+        "description": "This is a practice-based subject, using material based on the textbook. Learning is laboratory-based. Students assess if a crime has been committed, acquire digital evidence, analyse the evidence and prepare forensic reports. The emphasis is on digital forensics applications, in particular:  forensic analysis of a digital storage device where evidence of visits to web sites is recovered to support or oppose a hypothesis before a criminal court eDiscovery (a form of discovery related to civil litigation) where students acquire evidence of contact with a third party using email or social media intrusion investigation into the nature and extent of an unauthorised network intrusion. Students look for evidence of malware being installed on the device that may use the network to exfiltrate data to an unauthorised person. "
+    },
+    {
+        "id": "41903",
+        "name": "Internet Science",
+        "link": "https://handbook.uts.edu.au/subjects/41903.html",
+        "description": "This subject exposes students to the latest developments in networking, with a particular focus on the Internet and its measurement, using the research literature as a vehicle. Rather than learning the building blocks of networking in isolation as one would in a traditional networking course, students learn through working to understand, reproduce, and even extend, existing research work, assembling whatever knowledge and skills are needed along the way. Students work directly with research papers, and associated Internet-derived data sets, in diverse ways following a master-apprentice style model of training in face-to-face tutorial and laboratory sessions. Tutorial content combines mathematical and practical tool-kit building. Assessment covers both individual and team work and takes the form of reports, an oral exam, write-ups of experimental findings in the laboratory, including code, and an exam style online Quiz. This is a challenging course that makes extensive use of Matlab for data analysis, as well as CLI tools in Unix. Students should either have a strong grasp of Matlab, or have a strong programming background, enabling them to pick it up quickly. Internet measurement was one of the founding areas of `Big Data', and many of its practices have spread to other areas, and have strongly influenced the rise of `Data Science\u2019. In this course you'll be learning about an Internet flavoured Data Science."
+    },
+    {
+        "id": "48033",
+        "name": "Internet of Things",
+        "link": "https://handbook.uts.edu.au/subjects/48033.html",
+        "description": "The Internet of Things (IoT) is a distributed system, in which various autonomous devices, sometimes called motes, collect environmental data (such as location, speed, temperature, humidity and sound level) or, more recently, medical data (such as heart rate, blood oxygen level and pulse rate) and possibly execute controls via actuator devices. The data is collected across the network, aggregated and fed into business applications. Sensor and actuator networks, telemetry, data processing, distributed data bases, machine vision, AI and analytics, software frameworks are enablers for various applications, including environmental monitoring and control, agricultural monitoring and control, medical monitoring, habitat monitoring and military surveillance. In this subject, students learn the theory, the concepts and the practice of IoT-related paradigms. By designing and developing a small to medium-complexity, IoT-based application, students acquire new skills, as well as, learn the benefits of the IoT technology. Also students explore new models of service deployment, data acquisition and data analytics and visualisation."
+    },
+    {
+        "id": "42037",
+        "name": "IoT Security",
+        "link": "https://handbook.uts.edu.au/subjects/42037.html",
+        "description": "This subject provides the fundamental knowledge of Internet of Things (IoT) applications, including basic components such as IoT devices, low-powered networking and middleware solutions, and the relevant security and privacy issues regarding these components. Furthermore, students gain an understanding of why traditional cyber security tools and technologies are not suitable for IoT applications, and they learn a set of practical security tools and technologies useful for building secured and trustworthy IoT applications. Students gain fundamental knowledge of secured IoT applications such as bush fire monitoring systems, secured home automation systems, and intelligent and automated vehicular transportation systems. In addition, this subject aims to teach students, through industry-driven projects, to build secure IoT applications using a simulation environment on Contiki (an open-source operating system for IoT). The project derives from real-world applications like smart home, smart office, smart health, smart agriculture, etc. Through the project, students understand the importance of securing IoT devices for a trustworthy environment."
+    },
+    {
+        "id": "32011",
+        "name": "Multilayer Switched Networks",
+        "link": "https://handbook.uts.edu.au/subjects/32011.html",
+        "description": "This subject complements and extends the theory and practice learned by completing the prerequisites subjects. This subject extends skills and knowledge in the design and implementation of switched campus networks using VLANs for performance, reliability and security. Various methods regarding planning, configuring, and verifying the implementation of complex enterprise switching solutions are explored. Practical work is done on Cisco Systems layer 2 and layer 3 switches. The related topics are widely related to CCNA Routing and Switching: Connecting Networks and Scaling Networks and CCNP Switch. The subject is run in the UTS Cisco Systems Network Academy."
+    },
+    {
+        "id": "31274",
+        "name": "Network Management",
+        "link": "https://handbook.uts.edu.au/subjects/31274.html",
+        "description": "This subject explains the role of the network manager and the network management system. It discusses the components of network management, i.e. fault management, performance management, configuration management, security management and accounting management. The integration of the components into an enterprise management system is addressed. The lecture material is integrated with laboratory sessions throughout, which allows students to experience aspects of network management including the skills of using basic network management tools and application for network maintenance."
+    },
+    {
+        "id": "41905",
+        "name": "Software Defined Networks",
+        "link": "https://handbook.uts.edu.au/subjects/41905.html",
+        "description": "The rapid rise in internet traffic and services introduced a tremendous amount of pressure on telecommunication network providers. The rate of progress in network technologies has been recognised as slow to keep up with the emerging data demands. Both industry and academia have been working on new solutions for networking technologies, which can provide long terms scalability and extensibility. Software Defined Networking (SDN) is a new framework, which is believed to be the answer to the above need. SDN has already made an impact in data centres and enterprise networks and it is seen as a key technology to improve performance and extensibility both at core and access side of networking technologies. Consequently, there is a significant demand from the industry for network engineers with SDN skills. This subject introduces students to SDN and programming SDN applications. Students learn the major concepts in SDN, Network Function Virtualisation (NFV) and learn to develop applications over leading SDN controller through hands-on labs and exercises."
+    }
+]

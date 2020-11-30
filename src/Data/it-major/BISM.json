@@ -1,0 +1,62 @@
+[
+    {
+        "id": "31257",
+        "name": "Information System Development Methodologies",
+        "link": "https://handbook.uts.edu.au/subjects/31257.html",
+        "description": "Successfully designing and developing information systems is complex and difficult. A number of techniques and approaches have been developed but there are no 'silver bullet' solutions to the problems that plague IT development projects. This subject introduces students to a number of different methodologies and provides them with the skills they need to identify their strengths and weaknesses in key areas. These issues are of critical importance to those wishing to successfully manage software projects."
+    },
+    {
+        "id": "31247",
+        "name": "Collaborative Business Processes",
+        "link": "https://handbook.uts.edu.au/subjects/31247.html",
+        "description": "This undergraduate subject allows students to explore a problem and work through an end-to-end problem solving process. It introduces methods that can be used by agile teams to support the creativity, critical thinking and design that characterise innovation, and ways to apply these to real world problems. Starting from scoping a chosen problem, students develop a deeper understanding, supported by data and evidence. The subject introduces the support tools that allow teams to collaborate across distance and ways to adapt social networking for knowledge sharing and innovation. Students apply various tools to understand the problem and generate effective solution(s), such as design thinking, process modelling, systems thinking, business modelling, etc. It encourages students to share knowledge and quickly develop solutions that address current and emergent issues in society or business."
+    },
+    {
+        "id": "31245",
+        "name": "Business Process and IT Strategy",
+        "link": "https://handbook.uts.edu.au/subjects/31245.html",
+        "description": "This subject introduces students to the uses of information technology (IT) as a strategic resource that enables business processes and strategies. A major concern of businesses is the search for competitive advantage and how to best leverage IT resources and align them with business goals to achieve competitive advantage. For IT managers, this raises a number of complex issues to understand and manage. These issues relate to the roles of IT and IT strategy in enabling business processes and generating business benefits. In this subject, theories and methods related to the value of IT are presented and explored. Students learn and discuss business and strategy processes that lead to learning organisations that can achieve sustainable competitive advantage. Business processes and IT strategy are key concerns for business and IT managers. Managing information is a critical skill for success in today's business environment. Managers need to know about their organisation's capabilities and uses of information resources. This subject aims to provide a foundation to help general business managers become knowledgeable participants in decision-making processes related to information systems (IS). Critically reviewing the contributions of IS resources in businesses and organisational settings establishes a contextual understanding of how IS permeates many aspects of business. Through case studies this subject reinforces material provided in lectures and tutorials, additional research, and prior knowledge while giving groups of students scope to enhance their problem-solving, critical thinking and organisational skills as well as peer learning. The subject stresses the development and assessment of real-world experience through applied and innovative tasks and with team effort. Students develop the knowledge and skills required for using and managing information within an organisation as well as management and communication skills."
+    },
+    {
+        "id": "31258",
+        "name": "Innovations for Global Relationship Management",
+        "link": "https://handbook.uts.edu.au/subjects/31258.html",
+        "description": "The computing industry in Australia has passed through a number of stages and is entering a phase where its pivotal role is using computers to maintain relationships, knowledge management and innovation. This has lead to competitive advantage becoming the most important goal. This subject places local IT industries firmly within the local and global economic context. The topics covered include: an overview of the global IT industry, including its direction and structure; the value of IT in business; implications of e-commerce, customer relationship and knowledge management, user modelling, outsourcing, and off-shoring; and legal issues in the new economy for formalising those relationships. The subject also looks at ways of organising business information in organisations, with a focus on informal flows found in organisations. Relationships differ in the kind of work undertaken, process followed in team formation and management. This subject covers relationship building by having students using tools such as portals for maintaining customer loyalty and outsourcing collaborations."
+    },
+    {
+        "id": "31276",
+        "name": "Networked Enterprise Architecture",
+        "link": "https://handbook.uts.edu.au/subjects/31276.html",
+        "description": "Organisations in Australia and around the world are increasingly recognising that they do not operate in isolation and that competitive advantage depends on business networks. The IT-business alignment has been the major challenge as organisations go through the transformation that keeps them competitive and agile. Employing successful enterprise architecture ensures that changes to the business process are correctly supported by information systems and their underlying IT infrastructure. This undergraduate subject introduces ways in which information systems can support business networking, focusing on sharing information and integrating business activities with business partners. Students learn enterprise architecture methodologies and gain an understanding of the tools and techniques for the design of business. Through case studies, this subject reinforces material provided in lectures and tutorials, and additional research while giving students scope to enhance their problem-solving, critical thinking and organisational skills. The subject stresses the development and assessment of real-world experience through applied and innovative tasks and with the team effort. Students develop the knowledge and skills required for using and managing information within an organisation."
+    },
+    {
+        "id": "31280",
+        "name": "Strategic IT Project",
+        "link": "https://handbook.uts.edu.au/subjects/31280.html",
+        "description": "This subject deals with issues involved in strategic level analysis and design in a corporate information systems environment. Through a major case study, it reinforces material previously studied, while giving groups of students scope to use their own judgement in applying their knowledge. It stresses the development and assessment of alternative approaches to a system strategy. Senior management and communication skills are also developed."
+    },
+    {
+        "id": "31255",
+        "name": "Finance and IT Professionals",
+        "link": "https://handbook.uts.edu.au/subjects/31255.html",
+        "description": "This mid-stage undergraduate subject provides skills in financial management that are essential to any IT professional working in business today. Students gain knowledge of financial principles and an understanding of reporting requirements which are necessary for the evaluation and design of auditable financial systems. In addition, students develop key competencies in the financial aspects of IT management, outsourcing and project management including budgeting, statement analysis, feasibility and risk management."
+    },
+    {
+        "id": "48270",
+        "name": "Entrepreneurship and Commercialisation",
+        "link": "https://handbook.uts.edu.au/subjects/48270.html",
+        "description": "This later stage undergraduate subject develops students' understanding of the various roles within an enterprise, using a business planning framework to present topics such as strategy, marketing, operations, personnel, and finance. This subject has strong practical orientation, using contemporary case studies to broaden students' perspectives and demonstrate the application of the concepts covered. This subject is taught just before students enter the commercial world, to provide them with insight into the other functions of an organisation, and allow them to communicate more effectively with these roles."
+    },
+    {
+        "id": "31097",
+        "name": "IT Operations Management",
+        "link": "https://handbook.uts.edu.au/subjects/31097.html",
+        "description": "This subject allows students to develop the knowledge and skills required for effective management of hardware, software and human resources within an information systems organisation. Major topics are resource acquisition, developing software, workplace environment, recruitment and training policies, hardware and software security, operations management and service level agreements, ITIL and cloud computing."
+    },
+    {
+        "id": "31282",
+        "name": "Systems Testing and Quality Management",
+        "link": "https://handbook.uts.edu.au/subjects/31282.html",
+        "description": "This subject provides students with the practical knowledge and skills that are necessary to effectively measure and control the quality of software products. It covers software quality assurance and management principles and practice together with systems and software testing approaches."
+    }
+]
