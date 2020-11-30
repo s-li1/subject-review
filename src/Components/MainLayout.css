@@ -4,7 +4,7 @@
 
   /* Colours */
   --first-color: #0f4beb;
-  --first-color-light: #fcfcfb;
+  --first-color-light: #fafafa;
   --white-color: #F7F6FB;
   
   /* Fonts */
@@ -43,13 +43,13 @@ a{
   display: flex;
   align-items: center;padding: 0 1rem;
   justify-content: space-between;
-  background-color: #f5f4f5;
+  background-color: #323232;
   transition: .5s;
   z-index: 1;
 }
 
 .header-toggle{
-  color: var(--first-color);
+  color: white;
   font-size: 1.5rem;
   cursor: pointer;
 }

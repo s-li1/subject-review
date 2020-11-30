@@ -1,31 +1,31 @@
 [
     {
         "id": "32998",
-        "name": " .NET Application Development ",
+        "name": ".NET Application Development",
         "link": "https://handbook.uts.edu.au/subjects/32998.html",
         "description": "This subject introduces C#, Visual Studio and the .NET development environment. The emphasis is on examining the .NET framework and the practicalities of developing software in this setting using the C# language."
     },
     {
         "id": "32543",
-        "name": " 3D Animation ",
+        "name": "3D Animation",
         "link": "https://handbook.uts.edu.au/subjects/32543.html",
         "description": "This subject covers the major areas of 3D computer animation. It provides students with the opportunity to learn a major commercial 3D modelling, animation and rendering package. It also covers the principles and practice of pre-production planning, production management, and post-production of an animation project. The subject is project-based, and each student develops an animation of their choice."
     },
     {
         "id": "31241",
-        "name": "3D Computer Animation ",
+        "name": "3D Computer Animation",
         "link": "https://handbook.uts.edu.au/subjects/31241.html",
         "description": "This subject explores storytelling using 3D computer animation. It covers the complete animation production pipeline which includes ideation, storyboarding, 3D animation, lighting, rendering, and VFX. Students also have the opportunity to practice the pre-production planning, production management and post-production of an animation project. The subject is project-based and students learn by doing."
     },
     {
         "id": "42709",
-        "name": " Adaptive Leadership Studio ",
+        "name": "Adaptive Leadership Studio",
         "link": "https://handbook.uts.edu.au/subjects/42709.html",
         "description": "This subject does not have a description."
     },
     {
         "id": "41052",
-        "name": "Advanced Algorithms ",
+        "name": "Advanced Algorithms",
         "link": "https://handbook.uts.edu.au/subjects/41052.html",
         "description": "Algorithms are the heart of computer science and information technology. This subject moves beyond the basic material that introduces algorithms and data structures and looks at some of the more complicated algorithms, how to implement them and what they can be used for. Alongside this the subject delves into practical concerns of methods for dealing with apparently intractable computational problems, tools for selecting and evaluating algorithms and communicating effectively algorithmic strategies. "
     },
