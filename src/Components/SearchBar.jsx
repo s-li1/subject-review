@@ -1,9 +1,12 @@
 import React from 'react'
-
+import { BiSearch } from 'react-icons/bi'
 export default function SearchBar(props) {
 
   
     return (
-        <input type="text" placeholder="Search Subject" onChange={props.handleChange} />
+        <div className="searchBar">
+            <BiSearch/>
+            <input type="text" placeholder="Search Subject" onChange={props.handleChange} />
+        </div>
     )
 }

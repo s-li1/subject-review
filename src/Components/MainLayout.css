@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap");
+
 :root{
   --header-height: 3rem;
   --nav-width: 68px;
@@ -5,10 +7,10 @@
   /* Colours */
   --first-color: #0f4beb;
   --first-color-light: #fafafa;
-  --white-color: #F7F6FB;
+  --white-color: #EFF1F6;
   
   /* Fonts */
-
+  --body-font: 'Nunito', sans-serif;
   /* Z index */
   --z-fixed: 100;
 }
@@ -18,6 +20,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: var(--body-font);
+}
+
 .main{
   position: relative;
   margin: var(--header-height) 0 0 0;
@@ -25,7 +31,7 @@
   font-family: var(--body-font);
   font-size: var(--normal-font-size);
   transition: .5s;
-  background-color: var(--first-color-light);
+  background-color: var(--white-color);
 }
 
 a{
@@ -41,15 +47,15 @@ a{
   top: 0;
   left: 0;
   display: flex;
-  align-items: center;padding: 0 1rem;
-  justify-content: space-between;
-  background-color: #323232;
+  align-items: center;
+  padding: 0 1rem;
+  background-color: #fcfcfb;
   transition: .5s;
   z-index: 1;
 }
 
 .header-toggle{
-  color: white;
+  color: #434343;
   font-size: 1.5rem;
   cursor: pointer;
 }
@@ -92,9 +98,6 @@ a{
   color: var(--white-color);
 }
 
-.nav-name{
-  font-weight: 700;
-}
 .nav-link{
   position: relative;
   color: var(--first-color-light);
@@ -160,7 +163,28 @@ a{
   box-shadow: 0 0 0 0.2rem rgba(0, 123,255,0.25);
 }
 
+input:focus {
+  outline: 0;
+}
 
+input {
+  background-color: transparent;
+  border: none;
+  font-size: 1.05rem;
+}
+
+input::placeholder {
+  color: #434343;
+}
+
+.searchBar {
+  display: flex;
+  align-items: center;
+  color: #434343;
+  margin-left: 1rem;
+  font-size: 1.25rem;
+  padding-bottom: 5px;
+}
 
 /* Media Queries */
 @media screen and (min-width: 768px){
@@ -196,6 +220,8 @@ a{
     justify-content: space-evenly;
   
   }
+
+
   
   
 }

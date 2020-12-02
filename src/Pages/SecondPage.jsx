@@ -2,11 +2,9 @@ import React, { useState} from 'react'
 import SubjectCard from '../Components/Card/SubjectCard';
 import Main from '../Components/MainView/Main';
 import Pagination from '../Components/Pagination';
-import SearchBar from '../Components/SearchBar';
 import subjects from '../Data/IT.json';
 
 export default function SecondPage() {
-    const [loading, setLoading] = useState(false);
     //Page we are on
     const [currentPage, setCurrentPage] = useState(1);
     //How many subjects to be shown  on page
@@ -39,17 +37,21 @@ export default function SecondPage() {
             return currentPageSubjects;
         }
     }
+
+    //Essentially allows us to type our results into search bar which is placed in the main component
+    const handleChange = (e)=> {
+        e.preventDefault();
+        setInput(e.target.value);
+    }
+
+
     return (
-        <Main>
+        <Main input={handleChange}>
             <div>
                 This is the Second Page!
             </div>
-            <SearchBar handleChange={(e) => {
-                e.preventDefault();
-                setInput(e.target.value)}
-            }/>
             <div className="subject-container">
-                <SubjectCard subjectsData={handleSubjectSearch} className="subject-container"/> 
+                <SubjectCard subjectsData={handleSubjectSearch}/> 
             </div>
             <Pagination subjectsPerPage={subjectsPerPage} totalSubjects={subjects.length} paginate={paginate}/>
            

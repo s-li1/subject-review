@@ -3,6 +3,7 @@ import SideBar from '../SideBar/SideBar';
 import Contents from './Contents';
 import { BiMenu, BiX }from 'react-icons/bi';
 import '../../Components/MainLayout.css';
+import SearchBar from '../SearchBar';
 
 export default function Main(props) {
     //Show SideBar
@@ -19,6 +20,7 @@ export default function Main(props) {
                 <div className="header-toggle" onClick={handleSideNav} >
                     {sidebar? <BiX/> : <BiMenu/>}
                 </div>
+                <SearchBar handleChange={props.input}/>
         </div>
         <Contents open={sidebar}>
             {props.children}
