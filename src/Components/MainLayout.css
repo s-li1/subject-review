@@ -167,13 +167,13 @@ input:focus {
   outline: 0;
 }
 
-input {
+.searchBar input {
   background-color: transparent;
   border: none;
   font-size: 1.05rem;
 }
 
-input::placeholder {
+.searchBar input::placeholder {
   color: #434343;
 }
 

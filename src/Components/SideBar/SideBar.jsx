@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-router-dom';
 import { BiBookAlt, BiGridAlt, BiUser, BiMessageDetail } from 'react-icons/bi';
 import '../../Components/MainLayout.css';
@@ -25,12 +25,12 @@ export default function SideBar({open}) {
                             <span className="nav-name">Grid</span>
                         </Link>
 
-                        <Link to="/second" className="nav-link">
+                        <Link to="/subjects" className="nav-link">
                             <BiUser className="nav-icon"/>
                             <span className="nav-name">Users</span>
                         </Link>
 
-                        <Link to="#" className="nav-link">
+                        <Link to="/review" className="nav-link">
                             <BiMessageDetail className="nav-icon"/>
                             <span className="nav-name">Messages</span>
                         </Link>
