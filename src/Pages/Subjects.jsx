@@ -47,9 +47,6 @@ export default function SecondPage() {
 
     return (
         <Main input={handleChange}>
-            <div>
-                This is the Second Page!
-            </div>
             <div className="subject-container">
                 <SubjectCard subjectsData={handleSubjectSearch}/> 
             </div>
