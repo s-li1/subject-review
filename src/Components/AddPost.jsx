@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
+import './Posts.css';
 
 export default function AddPost({onCreate}) {
 
@@ -37,7 +38,7 @@ export default function AddPost({onCreate}) {
 
                     <textarea id="reviewBox" name="review" rows="4" cols="50" placeholder="Share your thoughts..." value={post.review} onChange={handleInputChange}/>
 
-                    <button>Submit</button>
+                    <button className="submitButton">Submit</button>
             </form>
         </div>
     )

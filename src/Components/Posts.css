@@ -1,0 +1,26 @@
+.addPost {
+    display: flex;
+    flex-direction: column;
+}
+
+form > input {
+    height: 2.5rem;
+}
+form > input:focus {
+    border: 0.0625rem solid #80ACFF;
+
+}
+
+textarea {
+    resize: none;
+}
+form > input:focus, textarea:focus {
+    outline-color: #80ACFF;
+    background-color: #F0F5FF;
+}
+
+form > input, textarea {
+    border: 0.0625rem solid rgb(155, 155, 156);
+    border-radius: 0.25rem;
+}
+

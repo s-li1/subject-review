@@ -6,8 +6,8 @@
 
   /* Colours */
   --first-color: #0f4beb;
-  --first-color-light: #fafafa;
-  --white-color: #EFF1F6;
+  --white-color: #fafafa;
+  --first-color-light: #ECECEF;
   
   /* Fonts */
   --body-font: 'Nunito', sans-serif;
@@ -22,7 +22,7 @@
 
 body {
   font-family: var(--body-font);
-  background-color: var(--white-color);
+  background-color: #fff;
 }
 
 .main{
@@ -49,7 +49,7 @@ a{
   display: flex;
   align-items: center;
   padding: 0 1rem;
-  background-color: #fcfcfb;
+  background-color: #f7f8f9;
   transition: .5s;
   z-index: 1;
 }
@@ -186,6 +186,30 @@ input:focus {
   padding-bottom: 5px;
 }
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+.review-container {
+  width: 100%;
+  max-width: 768px;
+  padding: 3rem 1rem;
+  margin: 0 auto;
+}
+
+.submitButton {
+  display: block;
+  padding: 0.75rem 2rem;
+  outline: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  border-radius: 0.5rem;
+  align-self: flex-start;
+  background-color: var(--first-color);
+  font-size: 1rem;
+
+}
 /* Media Queries */
 @media screen and (min-width: 768px){
   .main{

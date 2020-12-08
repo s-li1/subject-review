@@ -10,7 +10,7 @@ const [posts, setPosts] = useState([
     {
     id: 1,
     username: "Steven",
-    review: "10/10"
+    review: "I think this subject has a lot of good qualities. The teacher is pretty good too. As long as you study hard, you will do fine. Make sure you choose a good group for assignment 2 if you want that HD."
     },
     {
     id: 2,
@@ -49,16 +49,19 @@ const handleCreate = async (post) => {
 const subject = allSubjects.find((subject)=> subject.id===match.params.subjectId);
     return (
         <Main>
-            <div className="details-section">
-                <h1>
-                    <span>{subject.id}</span>
-                    <br/>
-                    {subject.name}
-                </h1>
-                <p>{subject.description}</p>
-            </div>
-            <div className="review-section">
-                <Posts posts = {posts} onCreate={handleCreate}/>
+            <div className="review-container">
+                <div className="details-section">
+                    <h1>
+                        <span>{subject.id}</span>
+                        <br/>
+                        {subject.name}
+                    </h1>
+                    <p>{subject.description}</p>
+                </div>
+                <h1>Recent Reviews</h1>
+                <div className="review-section">
+                    <Posts posts = {posts} onCreate={handleCreate}/>
+                </div>
             </div>
         </Main>
        
