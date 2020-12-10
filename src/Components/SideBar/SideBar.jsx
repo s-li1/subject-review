@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BiBookAlt, BiGridAlt, BiUser, BiMessageDetail } from 'react-icons/bi';
+import { BiBookAlt, BiGridAlt, BiLaptop, BiCertification} from 'react-icons/bi';
 import '../../Components/MainLayout.css';
 import { SideBarData } from './SideBarData';
 
@@ -25,14 +25,14 @@ export default function SideBar({open}) {
                             <span className="nav-name">Grid</span>
                         </Link>
 
-                        <Link to="/subjects" className="nav-link">
-                            <BiUser className="nav-icon"/>
-                            <span className="nav-name">Users</span>
+                        <Link to="/it/subjects" className="nav-link">
+                            <BiLaptop className="nav-icon"/>
+                            <span className="nav-name">I.T</span>
                         </Link>
 
-                        <Link to="/review" className="nav-link">
-                            <BiMessageDetail className="nav-icon"/>
-                            <span className="nav-name">Messages</span>
+                        <Link to="/engineering/subjects" className="nav-link">
+                            <BiCertification className="nav-icon"/>
+                            <span className="nav-name">Engineering</span>
                         </Link>
                         {SideBarData.map((item)=> { return (
                             <Link to={item.path}>

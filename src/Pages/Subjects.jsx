@@ -2,9 +2,8 @@ import React, { useState} from 'react'
 import SubjectCard from '../Components/Card/SubjectCard';
 import Main from '../Components/MainView/Main';
 import Pagination from '../Components/Pagination';
-import subjects from '../Data/IT.json';
-
-export default function SecondPage() {
+export default function SubjectsPage({course}) {
+    let subjects = require(`../Data/${course}.json`);
     //Page we are on
     const [currentPage, setCurrentPage] = useState(1);
     //How many subjects to be shown  on page
@@ -44,11 +43,10 @@ export default function SecondPage() {
         setInput(e.target.value);
     }
 
-
     return (
         <Main input={handleChange}>
             <div className="subject-container">
-                <SubjectCard subjectsData={handleSubjectSearch}/> 
+                <SubjectCard subjectsData={handleSubjectSearch} name={course}/> 
             </div>
             <Pagination subjectsPerPage={subjectsPerPage} totalSubjects={subjects.length} paginate={paginate}/>
            

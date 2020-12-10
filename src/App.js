@@ -2,8 +2,7 @@ import React from 'react';
 import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
 import './App.css';
 import Home from './Pages/FirstPage';
-import Second from './Pages/Subjects';
-import Review from './Pages/Review';
+import SubjectsPage from './Pages/Subjects';
 function App() {
 
 
@@ -11,8 +10,8 @@ function App() {
     <Router>
       <Switch>
         <Route path="/" exact component={Home}/>
-        <Route path="/subjects" exact component={Second}/>
-        <Route path="/subjects/:subjectId" component={Review}/>
+        <Route path="/it/subjects" render={()=> <SubjectsPage course='IT'/>}/>
+        <Route path="/engineering/subjects" render={()=> <SubjectsPage course='engineering'/>}/>
       </Switch>
     </Router>
    

@@ -26,6 +26,10 @@ export default function AddPost({onCreate}) {
         setPost(initialPostState);
     }
 
+    const handleResetFields = ()=> {
+        setPost(initialPostState);
+    }
+
     return (
         <div>
             <form onSubmit={handleSubmit} className="addPost">
@@ -37,8 +41,10 @@ export default function AddPost({onCreate}) {
                     onChange={handleInputChange}/>
 
                     <textarea id="reviewBox" name="review" rows="4" cols="50" placeholder="Share your thoughts..." value={post.review} onChange={handleInputChange}/>
-
-                    <button className="submitButton">Submit</button>
+                    <div className="options">
+                        <button className="submit button">Submit</button>
+                        <input type="button" className="button" value="Cancel" onClick={handleResetFields}/>
+                    </div>
             </form>
         </div>
     )
