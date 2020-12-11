@@ -3,9 +3,10 @@ import Posts from '../Components/Posts';
 import { firestore } from '../Config/Firebase/db_config';
 import { collectionofIdsAndDocs } from '../utilities';
 import Main from '../Components/MainView/Main';
-import allSubjects from '../Data/IT.json';
 export default function Review({match}) {
+   console.log(match)
 
+const getCourseName = match.path.replace("/:subjectId", "").replace("/", "");
 const [posts, setPosts] = useState([
     {
     id: 1,
@@ -19,7 +20,7 @@ const [posts, setPosts] = useState([
     }
 ]);
 
-
+let allSubjects = require(`../Data/${getCourseName}.json`);
 // useEffect( ()=> {
 //     const unsubscribe = firestore.collection(`${match.params.subjectId}`).orderBy("date", "desc").onSnapshot( snapshot => {
 //     const posts = snapshot.docs.map(collectionofIdsAndDocs);

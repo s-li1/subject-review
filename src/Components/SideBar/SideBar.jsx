@@ -25,12 +25,12 @@ export default function SideBar({open}) {
                             <span className="nav-name">Grid</span>
                         </Link>
 
-                        <Link to="/it/subjects" className="nav-link">
+                        <Link to="/IT" className="nav-link">
                             <BiLaptop className="nav-icon"/>
                             <span className="nav-name">I.T</span>
                         </Link>
 
-                        <Link to="/engineering/subjects" className="nav-link">
+                        <Link to="/engineering" className="nav-link">
                             <BiCertification className="nav-icon"/>
                             <span className="nav-name">Engineering</span>
                         </Link>

@@ -3,9 +3,9 @@ import './SubjectCard.css';
 import { Link, Route } from 'react-router-dom';
 import Review from '../../Pages/Review';
 export default function SubjectCard({subjectsData, name}) {
-    const path = `/${name}/subjects/:subjectId`;
     return (
-        subjectsData().map(subject => {
+        <>
+        {subjectsData().map(subject => {
             return(
                 <>
                     <div className="container">
@@ -19,17 +19,18 @@ export default function SubjectCard({subjectsData, name}) {
                                 <p className="card-body">
                                     {subject.description}
                                 </p>
-                                <Link className="reviewButton" to ={`/${name}/subjects/${subject.id}`} >
+                                <Link className="reviewButton" to ={`/${name}/${subject.id}`} >
                                 Review
                                 </Link>
                             </div>
                         </div>
                     </div>
-                    <Route path={path} render={props => {
-                        <Review {...props}/>
-                    }} />
                 </>
             )
-        })
+        })}
+        <Route path={`/${name}/:subjectId`} exact render={(props) => {
+            return <Review {...props}/>
+        }} />
+        </>
     )
 }
