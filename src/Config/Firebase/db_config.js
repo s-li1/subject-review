@@ -11,10 +11,6 @@ const DB_CONFIG = {
     appId: "1:691145998257:web:cf6f545e632214a35cc790"
 };
 
-//remove this later
-//adds firebase to console window for us to test things
-window.firebase = firebase; 
-
 firebase.initializeApp(DB_CONFIG);
 
 export const firestore = firebase.firestore();

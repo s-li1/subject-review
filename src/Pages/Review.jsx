@@ -3,8 +3,8 @@ import Posts from '../Components/Posts';
 import { firestore } from '../Config/Firebase/db_config';
 import { collectionofIdsAndDocs } from '../utilities';
 import Main from '../Components/MainView/Main';
+import Modal from '../Components/Modal/Modal';
 export default function Review({match}) {
-   console.log(match)
 
 const getCourseName = match.path.replace("/:subjectId", "").replace("/", "");
 const [posts, setPosts] = useState([
@@ -47,6 +47,18 @@ const handleCreate = async (post) => {
     
 };
 
+const [modal, setModalOpen] = useState(false);
+
+const openModalHandler = ()=> {
+    setModalOpen(true);
+}
+
+const closeModalHandler = ()=> {
+    setModalOpen(!modal);
+}
+
+
+
 const subject = allSubjects.find((subject)=> subject.id===match.params.subjectId);
     return (
         <Main>
@@ -60,6 +72,9 @@ const subject = allSubjects.find((subject)=> subject.id===match.params.subjectId
                     <p>{subject.description}</p>
                 </div>
                 <h1>Recent Reviews</h1>
+                <button className="modal-opener" onClick={openModalHandler}>Open Modal</button>
+                <Modal show={modal} close={closeModalHandler}/>
+                <div className={ modal ? "overlay active" : "overlay"}></div>
                 <div className="review-section">
                     <Posts posts = {posts} onCreate={handleCreate}/>
                 </div>

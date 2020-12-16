@@ -1,8 +1,7 @@
 import React from 'react'
 import Main from '../Components/MainView/Main';
 
-export default function FirstPage({match}) {
-    console.log(match);
+export default function FirstPage() {
     return (
         <Main>
             <div>

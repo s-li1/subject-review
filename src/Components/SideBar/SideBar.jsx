@@ -5,10 +5,6 @@ import '../../Components/MainLayout.css';
 import { SideBarData } from './SideBarData';
 
 export default function SideBar({open}) {
-    // //Show SideBar
-    // const [sidebar, setSidebar] = useState(false);
-
-    // const showSidebar = () => setSidebar(!sidebar);
 
     return (
         <div className={open ? "navbar show" : "navbar" } id="nav-bar">

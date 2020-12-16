@@ -8,8 +8,8 @@ export default function SubjectCard({subjectsData, name}) {
         {subjectsData().map(subject => {
             return(
                 <>
-                    <div className="container">
-                        <div className="card">
+                    <div className="container" key={subject.id}>
+                        <div className="card" key={subject.id}>
                             <div className="card-container">
                                 <h1 className="card-header">
                                     {subject.id}
