@@ -21,7 +21,7 @@ const [posts, setPosts] = useState([
 ]);
 
 let allSubjects = require(`../Data/${getCourseName}.json`);
-// useEffect( ()=> {
+// useEffect(()=> {
 //     const unsubscribe = firestore.collection(`${match.params.subjectId}`).orderBy("date", "desc").onSnapshot( snapshot => {
 //     const posts = snapshot.docs.map(collectionofIdsAndDocs);
 //     console.log(posts);

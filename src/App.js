@@ -13,8 +13,10 @@ function App() {
         <Route path="/" exact component={Home}/>
         <Route path="/IT" exact render={()=> <SubjectsPage course='IT'/>}/>
         <Route path="/engineering" exact render={()=> <SubjectsPage course='engineering'/>}/>
+        <Route path="/business" exact render={()=> <SubjectsPage course='business'/>}/>
         <Route path="/IT/:subjectId" component={Review}/>
         <Route path="/engineering/:subjectId" component={Review}/>
+        <Route path="/business/:subjectId" component={Review}/>
       </Switch>
     </Router>
    

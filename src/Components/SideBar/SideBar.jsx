@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { BiBookAlt, BiGridAlt, BiLaptop, BiCertification} from 'react-icons/bi';
+import { BiBookAlt, BiGridAlt, BiLaptop, BiBriefcase, BiCog} from 'react-icons/bi';
 import '../../Components/MainLayout.css';
 import { SideBarData } from './SideBarData';
 
@@ -26,8 +26,13 @@ export default function SideBar({open}) {
                             <span className="nav-name">I.T</span>
                         </Link>
 
+                        <Link to="/business" className="nav-link">
+                            <BiBriefcase className="nav-icon"/>
+                            <span className="nav-name">Business</span>
+                        </Link>
+
                         <Link to="/engineering" className="nav-link">
-                            <BiCertification className="nav-icon"/>
+                            <BiCog className="nav-icon"/>
                             <span className="nav-name">Engineering</span>
                         </Link>
                         {SideBarData.map((item)=> { return (
