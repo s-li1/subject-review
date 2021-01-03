@@ -75,7 +75,7 @@ if(!subject) {
                     </h1>
                     <p>{subject.description}</p>
                 </div>
-                <div class="header-guidelines-container">
+                <div className="header-guidelines-container">
                 <h1>Recent Reviews</h1>
                 <button className="modal-opener" onClick={openModalHandler}>Read our guidelines</button>
                 </div>

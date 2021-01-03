@@ -6,27 +6,26 @@ export default function SubjectCard({subjectsData, name}) {
     
     return (
         <>
-        {subjectsData().map(subject => {
+        {subjectsData().map((subject, index) => {
             return(
-                <>
-                    <div className="container">
-                        <div className="card">
-                            <div className="card-container">
-                                <h1 className="card-header">
-                                    {subject.id}
-                                    <br/>
-                                    {subject.name} 
-                                </h1>
-                                <p className="card-body">
-                                    {subject.description}
-                                </p>
-                                <Link className="reviewButton" to ={`/${name}/${subject.id}`} >
-                                Review
-                                </Link>
-                            </div>
+
+                <div key={index} className="container">
+                    <div className="card">
+                        <div className="card-container">
+                            <h1 className="card-header">
+                                {subject.id}
+                                <br/>
+                                {subject.name} 
+                            </h1>
+                            <p className="card-body">
+                                {subject.description}
+                            </p>
+                            <Link className="reviewButton" to ={`/${name}/${subject.id}`} >
+                            Review
+                            </Link>
                         </div>
                     </div>
-                </>
+                </div>
             )
         })}
         <Route path={`/${name}/:subjectId`} exact render={(props) => {
