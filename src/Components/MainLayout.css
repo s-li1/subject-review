@@ -203,23 +203,26 @@ input:focus {
   display: flex;
 }
 
-.submit {
+.blue {
   background-color: var(--first-color);
   color: white;
   border: 1px solid var(--first-color) !important;
 }
 
 
+.submit {
+  align-self: flex-start;
+  margin-right: 1.5rem;
+  
+}
+
 .button {
   padding: 0.5rem 1rem;
   cursor: pointer;
   border-radius: 3px;
-  align-self: flex-start;
   font-size: 1rem;
-  margin-right: 1.5rem;
   outline: none;
   border: 0.0625rem solid rgb(155, 155, 156);
-
 }
 
 .none {
@@ -232,9 +235,29 @@ input:focus {
   outline: none;
   border: none;
   background: none;
-  font-size: 1.25rem;
+  font-size: 1rem;
   cursor: pointer;
 }
+
+.modal-opener:hover {
+  text-decoration: underline;
+}
+
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.error {
+  font-size: 10rem;
+}
+
+.error span {
+  color: var(--first-color);
+}
+
 
 
 /* Media Queries */
@@ -271,6 +294,13 @@ input:focus {
     justify-content: space-evenly;
     margin-top: 100px;
   
+  }
+
+  .header-guidelines-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
   }
 
 

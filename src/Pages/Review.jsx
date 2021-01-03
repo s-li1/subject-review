@@ -4,6 +4,7 @@ import { firestore } from '../Config/Firebase/db_config';
 import { collectionofIdsAndDocs } from '../utilities';
 import Main from '../Components/MainView/Main';
 import Modal from '../Components/Modal/Modal';
+import { Redirect } from 'react-router-dom';
 export default function Review({match}) {
 
 const getCourseName = match.path.replace("/:subjectId", "").replace("/", "");
@@ -60,6 +61,9 @@ const closeModalHandler = ()=> {
 
 
 const subject = allSubjects.find((subject)=> subject.id===match.params.subjectId);
+if(!subject) {
+    return <Redirect to='/not-found'/>
+}
     return (
         <Main>
             <div className="review-container">
@@ -71,8 +75,10 @@ const subject = allSubjects.find((subject)=> subject.id===match.params.subjectId
                     </h1>
                     <p>{subject.description}</p>
                 </div>
+                <div class="header-guidelines-container">
                 <h1>Recent Reviews</h1>
-                <button className="modal-opener" onClick={openModalHandler}>Open Modal</button>
+                <button className="modal-opener" onClick={openModalHandler}>Read our guidelines</button>
+                </div>
                 <Modal show={modal} close={closeModalHandler}/>
                 <div className={ modal ? "overlay active" : "overlay"}></div>
                 <div className="review-section">

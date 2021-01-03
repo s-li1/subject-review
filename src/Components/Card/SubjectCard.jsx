@@ -3,6 +3,7 @@ import './SubjectCard.css';
 import { Link, Route } from 'react-router-dom';
 import Review from '../../Pages/Review';
 export default function SubjectCard({subjectsData, name}) {
+    
     return (
         <>
         {subjectsData().map(subject => {

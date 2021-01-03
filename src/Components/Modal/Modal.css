@@ -4,12 +4,13 @@
     left:50%;
     transform: translate(-50%, -50%) scale(0);
     transition: 300ms ease-in-out;
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 2px solid #EAEEF7;
+    border-radius: 0.5rem;
     z-index: 10;
     background-color: white;
     width: 500px;
     max-width: 80%;
+    color: #2b273c;
 }
 
 .rules-modal.active {
@@ -21,7 +22,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #6B6C7E;
 }
 
 .modal-header .title {
@@ -35,6 +36,10 @@
     background: none;
     font-size: 1.25rem;
     font-weight: bold;
+}
+
+.modal-close {
+    color: #2b273c;
 }
 
 .modal-body {

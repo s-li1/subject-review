@@ -48,7 +48,7 @@ export default function AddPost({onCreate}) {
 
                     <textarea id="reviewBox" name="review" rows="4" cols="50" placeholder="Share your thoughts..." value={post.review} onChange={handleInputChange}/>
                     <div className="options">
-                        <button className="submit button">Submit</button>
+                        <button className="blue submit button">Submit</button>
                         <input type="button" className={cancelButton ? "button" : "button none"} value="Cancel" onClick={handleResetFields}/>
                     </div>
             </form>

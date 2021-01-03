@@ -1,11 +1,13 @@
 import React from 'react';
-import { BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Redirect } from 'react-router-dom';
 import './App.css';
 import Home from './Pages/FirstPage';
 import SubjectsPage from './Pages/Subjects';
 import Review from './Pages/Review';
+import NoMatchPage from './Pages/NoMatchPage';
 function App() {
 
+  const NoMatchRedirect = () => <Redirect to='/not-found'/>
 
   return (
     <Router>
@@ -17,6 +19,8 @@ function App() {
         <Route path="/IT/:subjectId" component={Review}/>
         <Route path="/engineering/:subjectId" component={Review}/>
         <Route path="/business/:subjectId" component={Review}/>
+        <Route path="/not-found" component={NoMatchPage}/>
+        <Route component={NoMatchRedirect}/>
       </Switch>
     </Router>
    
