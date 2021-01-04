@@ -17,7 +17,7 @@ export default function Modal(props) {
                    <br/>
                    <br/>
                    Share your experiences and opinions in regards to a particular subject! We understand that students won't always agree but we expect that everyone using this platform treats one another with respect.
-                   <ul>
+                   <ul className="rules">
                        <li><strong>Personal Experience: </strong> Share your firsthand experience, not what you have heard from someone else. </li>
                        <li><strong>Accuracy: </strong>Feel free to express your opinions but refrain from making any exaggerations that might misrepresent your experience. </li>
                        <li><strong>Inappropriate content: </strong>There are no exceptions for harassment, threats or hate speech. Please refrain from colorful language where possible.</li>
