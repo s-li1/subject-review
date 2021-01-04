@@ -5,6 +5,7 @@ import { collectionofIdsAndDocs } from '../utilities';
 import Main from '../Components/MainView/Main';
 import Modal from '../Components/Modal/Modal';
 import { Redirect } from 'react-router-dom';
+import StarRating from '../Components/StarRating/StarRating';
 export default function Review({match}) {
 
 const getCourseName = match.path.replace("/:subjectId", "").replace("/", "");
@@ -83,6 +84,7 @@ if(!subject) {
                 <div className={ modal ? "overlay active" : "overlay"}></div>
                 <div className="review-section">
                     <Posts posts = {posts} onCreate={handleCreate}/>
+                    <StarRating/>
                 </div>
             </div>
         </Main>

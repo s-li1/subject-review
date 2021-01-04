@@ -26,3 +26,19 @@ form > input, textarea {
     margin-bottom: 1.5rem;
 }
 
+.star-rating {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.star {
+    width: 1.5em;
+    height: 1.5em;
+    color: black;
+    margin-right: 0.5rem;
+}
+
+.selected {
+    color: #f1c40f;
+}
+
