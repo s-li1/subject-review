@@ -5,7 +5,6 @@ import { collectionofIdsAndDocs } from '../utilities';
 import Main from '../Components/MainView/Main';
 import Modal from '../Components/Modal/Modal';
 import { Redirect } from 'react-router-dom';
-import StarRating from '../Components/StarRating/StarRating';
 export default function Review({match}) {
 
 const getCourseName = match.path.replace("/:subjectId", "").replace("/", "");
@@ -13,12 +12,14 @@ const [posts, setPosts] = useState([
     {
     id: 1,
     username: "Steven",
-    review: "I think this subject has a lot of good qualities. The teacher is pretty good too. As long as you study hard, you will do fine. Make sure you choose a good group for assignment 2 if you want that HD."
+    review: "I think this subject has a lot of good qualities. The teacher is pretty good too. As long as you study hard, you will do fine. Make sure you choose a good group for assignment 2 if you want that HD.",
+    rating:"5"
     },
     {
     id: 2,
     username: "Emily",
-    review: "This is my comment"
+    review: "This is my comment",
+    rating: "3"
     }
 ]);
 
@@ -84,7 +85,7 @@ if(!subject) {
                 <div className={ modal ? "overlay active" : "overlay"}></div>
                 <div className="review-section">
                     <Posts posts = {posts} onCreate={handleCreate}/>
-                    <StarRating/>
+                    
                 </div>
             </div>
         </Main>
