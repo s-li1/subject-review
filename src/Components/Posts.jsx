@@ -7,7 +7,7 @@ export default function Posts({posts, onCreate}) {
         <div>
             <section className = "posts">
                 <AddPost onCreate={onCreate}/>
-                {posts.map( post => <Post {...post} key={post.id}/>)}
+                {posts.map( post => <Post {...post} key={post.id} />)}
             </section>
         </div>
     )

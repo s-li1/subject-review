@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BiBookAlt, BiGridAlt, BiLaptop, BiBriefcase, BiCog} from 'react-icons/bi';
+import { BiGridAlt, BiLaptop, BiBriefcase, BiCog} from 'react-icons/bi';
 
 export const SideBarData = [
     {
