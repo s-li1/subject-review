@@ -1,12 +1,11 @@
 import React, { useState } from 'react'
 import SideBar from '../SideBar/SideBar';
-import Contents from './Contents';
+import Contents from '../Contents';
 import { BiMenu, BiX }from 'react-icons/bi';
-import '../../Components/MainLayout.css';
+import '../MainLayout.css';
 import SearchBar from '../SearchBar';
 
-export default function Main(props) {
-    //Show SideBar
+export default function MainView(props) {
     const [sidebar, setSidebar] = useState(false);
 
     const handleSideNav = () => {

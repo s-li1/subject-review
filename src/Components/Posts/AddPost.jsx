@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import './Posts.css';
-import Star from './StarRating/Star';
+import Star from '../StarRating/Star/Star';
 
 export default function AddPost({onCreate}) {
 

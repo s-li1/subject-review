@@ -1,5 +1,5 @@
 import React from 'react'
-import Post from './Post';
+import Post from './Post/Post';
 import AddPost from './AddPost';
 
 export default function Posts({posts, onCreate}) {

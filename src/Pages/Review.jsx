@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import Posts from '../Components/Posts';
+import Posts from '../Components/Posts/Posts';
 import { firestore } from '../Config/Firebase/db_config';
 import { collectionofIdsAndDocs } from '../utilities';
-import Main from '../Components/MainView/Main';
+import Main from '../Components/MainView/MainView';
 import Modal from '../Components/Modal/Modal';
 import { Redirect } from 'react-router-dom';
 export default function Review({match}) {
@@ -34,14 +34,9 @@ let allSubjects = require(`../Data/${getCourseName}.json`);
 // }, []);
 
 const handleCreate = async (post) => {
-    // console.log([post, ...posts]);
     post.date = new Date();
-    //post.timestamp = firestore.FieldValue.serverTimestamp();
-    // setPosts([post, ...posts]);
-    //Returns promise referencing where doc is
     const documentRef = await firestore.collection(`${match.params.subjectId}`).add(post);
-
-    //grab the document from the reference
+    
     const document = await documentRef.get();
 
     const newPost = collectionofIdsAndDocs(document);

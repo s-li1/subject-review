@@ -1,5 +1,5 @@
 import React from 'react';
-import FixedStarRating from './StarRating/StarRating';
+import FixedStarRating from '../../StarRating/StarRating';
 
 export default function Post({ username = "Steven", review = "Hello this is my comment", createdAt, rating = 5}) {
     return (

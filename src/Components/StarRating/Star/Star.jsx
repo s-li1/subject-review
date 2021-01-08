@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsStarFill, BsStar } from 'react-icons/bs';
-import '../Posts.css';
+import './Star.css';
 
 const Star = ({ selected = false, onClick = event => event}) => (
     <div onClick={onClick}>
