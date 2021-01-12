@@ -1,22 +1,26 @@
 import React, { useState } from 'react';
 import './Posts.css';
+import Star from '../StarRating/Star/Star';
 
 export default function AddPost({onCreate}) {
 
     const initialPostState = {
         username: '',
         review: '',
+        rating: 0
     }
 
     const [post, setPost] = useState(initialPostState);
-
     const [cancelButton, setCancelButton] = useState(false);
+    const totalStars = [0,1,2,3,4];
+    const[starsSelected, setStarsSelected] = useState(post.rating);
+    
     const handleInputChange = (event) => {
         const { name, value } = event.target;
         if(post.review.length > 0 ) {
             setCancelButton(true);
         }
-        setPost ({...post, [name]: value});
+        setPost ({...post, [name]: value, rating: starsSelected});
     }
     const handleSubmit = (event) => {
         event.preventDefault()
@@ -39,6 +43,12 @@ export default function AddPost({onCreate}) {
     return (
         <div>
             <form onSubmit={handleSubmit} className="addPost">
+                <div className="star-rating">
+                    {totalStars.map((star)=> (
+                        <Star key={star} selected={ star < starsSelected}
+                        onClick={() => setStarsSelected(star + 1) }/>
+                    ))}
+                </div>
                 <input
                     type="text"
                     name="username"

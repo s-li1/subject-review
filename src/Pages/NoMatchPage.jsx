@@ -1,5 +1,5 @@
 import React from 'react';
-import Main from '../Components/MainView/Main';
+import Main from '../Components/MainView/MainView';
 import { useHistory } from 'react-router-dom';
 export default function NoMatchPage() {
 

@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import Posts from '../Components/Posts';
+import Posts from '../Components/Posts/Posts';
 import { firestore } from '../Config/Firebase/db_config';
 import { collectionofIdsAndDocs } from '../utilities';
-import Main from '../Components/MainView/Main';
+import Main from '../Components/MainView/MainView';
 import Modal from '../Components/Modal/Modal';
 import { Redirect } from 'react-router-dom';
 export default function Review({match}) {
@@ -12,12 +12,14 @@ const [posts, setPosts] = useState([
     {
     id: 1,
     username: "Steven",
-    review: "I think this subject has a lot of good qualities. The teacher is pretty good too. As long as you study hard, you will do fine. Make sure you choose a good group for assignment 2 if you want that HD."
+    review: "I think this subject has a lot of good qualities. The teacher is pretty good too. As long as you study hard, you will do fine. Make sure you choose a good group for assignment 2 if you want that HD.",
+    rating:"5"
     },
     {
     id: 2,
     username: "Emily",
-    review: "This is my comment"
+    review: "This is my comment",
+    rating: "3"
     }
 ]);
 
@@ -32,14 +34,9 @@ let allSubjects = require(`../Data/${getCourseName}.json`);
 // }, []);
 
 const handleCreate = async (post) => {
-    // console.log([post, ...posts]);
     post.date = new Date();
-    //post.timestamp = firestore.FieldValue.serverTimestamp();
-    // setPosts([post, ...posts]);
-    //Returns promise referencing where doc is
     const documentRef = await firestore.collection(`${match.params.subjectId}`).add(post);
-
-    //grab the document from the reference
+    
     const document = await documentRef.get();
 
     const newPost = collectionofIdsAndDocs(document);
@@ -83,6 +80,7 @@ if(!subject) {
                 <div className={ modal ? "overlay active" : "overlay"}></div>
                 <div className="review-section">
                     <Posts posts = {posts} onCreate={handleCreate}/>
+                    
                 </div>
             </div>
         </Main>

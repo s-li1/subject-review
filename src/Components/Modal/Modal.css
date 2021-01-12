@@ -63,3 +63,6 @@
     pointer-events: all;
   }
 
+.rules > li {
+    margin: 10px 0;
+}

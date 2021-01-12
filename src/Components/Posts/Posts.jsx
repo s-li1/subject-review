@@ -1,5 +1,5 @@
 import React from 'react'
-import Post from './Post';
+import Post from './Post/Post';
 import AddPost from './AddPost';
 
 export default function Posts({posts, onCreate}) {
@@ -7,7 +7,7 @@ export default function Posts({posts, onCreate}) {
         <div>
             <section className = "posts">
                 <AddPost onCreate={onCreate}/>
-                {posts.map( post => <Post {...post} key={post.id}/>)}
+                {posts.map( post => <Post {...post} key={post.id} />)}
             </section>
         </div>
     )

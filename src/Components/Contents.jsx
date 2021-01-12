@@ -1,5 +1,5 @@
 import React from 'react';
-import '../../Components/MainLayout.css';
+import './MainLayout.css';
 export default function Contents(props) {
     return (
        <div className= {props.open ? "main isPushed" : "main"}>
