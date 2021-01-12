@@ -32,11 +32,13 @@ export default function AddPost({onCreate}) {
         }
         onCreate(post);
         setPost(initialPostState);
+        setStarsSelected(initialPostState.rating);
         setCancelButton(!cancelButton);
     }
 
     const handleResetFields = ()=> {
         setPost(initialPostState);
+        setStarsSelected(initialPostState.rating);
         setCancelButton(!cancelButton);
     }
 

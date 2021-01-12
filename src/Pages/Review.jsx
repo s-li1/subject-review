@@ -8,30 +8,18 @@ import { Redirect } from 'react-router-dom';
 export default function Review({match}) {
 
 const getCourseName = match.path.replace("/:subjectId", "").replace("/", "");
-const [posts, setPosts] = useState([
-    {
-    id: 1,
-    username: "Steven",
-    review: "I think this subject has a lot of good qualities. The teacher is pretty good too. As long as you study hard, you will do fine. Make sure you choose a good group for assignment 2 if you want that HD.",
-    rating:"5"
-    },
-    {
-    id: 2,
-    username: "Emily",
-    review: "This is my comment",
-    rating: "3"
-    }
-]);
+const [posts, setPosts] = useState([]);
 
 let allSubjects = require(`../Data/${getCourseName}.json`);
-// useEffect(()=> {
-//     const unsubscribe = firestore.collection(`${match.params.subjectId}`).orderBy("date", "desc").onSnapshot( snapshot => {
-//     const posts = snapshot.docs.map(collectionofIdsAndDocs);
-//     console.log(posts);
-//     setPosts (posts);
-//   });
-//     return unsubscribe;
-// }, []);
+
+useEffect(()=> {
+    const unsubscribe = firestore.collection(`${match.params.subjectId}`).orderBy("date", "desc").onSnapshot( snapshot => {
+    const posts = snapshot.docs.map(collectionofIdsAndDocs);
+    setPosts (posts);
+  });
+    return unsubscribe;
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+}, []);
 
 const handleCreate = async (post) => {
     post.date = new Date();

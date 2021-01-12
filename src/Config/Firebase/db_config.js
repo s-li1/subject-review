@@ -2,13 +2,13 @@ import firebase from 'firebase/app';
 import 'firebase/firestore';
 
 const DB_CONFIG = {
-    apiKey: "AIzaSyAUzySy9ffhBLoj8OKGo831T_o_R2z1Bnw",
-    authDomain: "review-crud.firebaseapp.com",
-    databaseURL: "https://review-crud.firebaseio.com",
-    projectId: "review-crud",
-    storageBucket: "review-crud.appspot.com",
-    messagingSenderId: "691145998257",
-    appId: "1:691145998257:web:cf6f545e632214a35cc790"
+    apiKey: process.env.REACT_APP_API_KEY,
+    authDomain: process.env.REACT_APP_AUTH_DOMAIN,
+    databaseURL: process.env.REACT_APP_DATABASE_URL,
+    projectId: process.env.REACT_APP_PROJECT_ID,
+    storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
+    messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
+    appId: process.env.REACT_APP__ID
 };
 
 firebase.initializeApp(DB_CONFIG);
