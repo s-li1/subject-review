@@ -4,7 +4,7 @@ import Main from '../Components/MainView/MainView';
 export default function FirstPage() {
     return (
         <Main>
-            <div>
+             <div>
                 Welcome to UTS Subject Reviews! This is a place where you can find all subjects from the following course areas and share your experiences:
                 <ul>
                     <li>
