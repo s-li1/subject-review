@@ -94,7 +94,7 @@ a{
   color: var(--white-color);
 }
 
-.nav-link{
+.nav-link {
   position: relative;
   color: var(--first-color-light);
   margin-bottom: 1.5rem;
@@ -104,6 +104,11 @@ a{
   border-radius: 3px;
 
 }
+.nav-sub-link:hover {
+  color: var(--first-color);
+  background-color: var(--white-color);
+}
+
 
 
 .nav-link:hover{

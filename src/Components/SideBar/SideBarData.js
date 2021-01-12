@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { BiBookAlt, BiGridAlt, BiLaptop, BiBriefcase, BiCog} from 'react-icons/bi';
+import {BiGridAlt, BiLaptop, BiBriefcase, BiCog} from 'react-icons/bi';
 
 export const SideBarData = [
     {
@@ -11,9 +11,18 @@ export const SideBarData = [
     },
     {
         title: 'I.T',
-        path: '/IT',
         icon: <BiLaptop className="nav-icon"/>,
-        name: 'Information Technology'
+        name: 'Information Technology',
+        subNav: [
+            {
+              title: 'Enterprise Systems Development',
+              path: '/IT/ESD'
+            },
+            {
+              title: 'Interaction Design',
+              path: '/IT/ID'
+            }
+          ]
     },
     {
         title: 'Business',
