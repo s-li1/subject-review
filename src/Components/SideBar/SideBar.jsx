@@ -3,7 +3,6 @@ import { Link } from 'react-router-dom';
 import { BiBookAlt} from 'react-icons/bi';
 import '../../Components/MainLayout.css';
 import { SideBarData } from './SideBarData';
-import SubMenu from './SubMenu';
 
 export default function SideBar({open}) {
    
@@ -17,7 +16,11 @@ export default function SideBar({open}) {
                     </Link>
                     <div className="nav-list">
                         {SideBarData.map((item, index)=> { 
-                            return <SubMenu item={item} key={index}/>;
+                            return (
+                            <Link key= {index} to={item.path} className="nav-link">
+                                {item.icon}
+                                <span className="nav-name">{item.title}</span>
+                            </Link>)
                         })}
                     </div>
                 </div>

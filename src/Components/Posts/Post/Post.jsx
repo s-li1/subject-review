@@ -6,9 +6,10 @@ export default function Post({ username = "Steven", review = "Hello this is my c
         <div>
             <article className="post">
                 <div className="content">
-                    <FixedStarRating rating={rating} />
                     <h3>{username}</h3>
                     <div>{review}</div>
+                    <br/>
+                    <FixedStarRating rating={rating} />
                 </div>
                 <div className="info">
                 </div>

@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { BiGridAlt, BiLaptop, BiBriefcase, BiCog} from 'react-icons/bi';
 
@@ -11,18 +10,9 @@ export const SideBarData = [
     },
     {
         title: 'I.T',
+        path: '/IT',
         icon: <BiLaptop className="nav-icon"/>,
-        name: 'Information Technology',
-        subNav: [
-            {
-              title: 'Enterprise Systems Development',
-              path: '/IT/ESD'
-            },
-            {
-              title: 'Interaction Design',
-              path: '/IT/ID'
-            }
-          ]
+        name: 'Information Technology'
     },
     {
         title: 'Business',

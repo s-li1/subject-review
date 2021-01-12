@@ -49,6 +49,7 @@ export default function AddPost({onCreate}) {
                         onClick={() => setStarsSelected(star + 1) }/>
                     ))}
                 </div>
+                <br/>
                 <input
                     type="text"
                     name="username"
