@@ -7,7 +7,7 @@ This is the perfect place to review UTS subjects. This project was made with Rea
 ## Get Started
 
 ```
-git clone https://github.com/jslancerteam/crystal-dashboard
+git clone https://github.com/s-li1/subject-review.git
 npm install
 npm start
 ```
