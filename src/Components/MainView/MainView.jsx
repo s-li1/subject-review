@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
 import SideBar from '../SideBar/SideBar';
-import Contents from '../Contents';
+import Contents from '../Contents/Contents';
 import { BiMenu, BiX }from 'react-icons/bi';
-import '../MainLayout.css';
-import SearchBar from '../SearchBar';
+import './MainLayout.css';
+import SearchBar from '../SearchBar/SearchBar';
 
 export default function MainView(props) {
     const [sidebar, setSidebar] = useState(false);
@@ -19,7 +19,7 @@ export default function MainView(props) {
                 <div className="header-toggle" onClick={handleSideNav} >
                     {sidebar? <BiX/> : <BiMenu/>}
                 </div>
-                <SearchBar handleChange={props.input}/>
+                <SearchBar search={props.disableSearchBar} handleChange={props.input}/>
         </div>
         <Contents open={sidebar}>
             {props.children}

@@ -1,5 +1,5 @@
 import React from 'react'
-import './MainLayout.css';
+import '../MainView/MainLayout.css';
 /* eslint-disable */
 export default function Pagination({subjectsPerPage, totalSubjects, paginate}) {
     const pageNumbers = [];

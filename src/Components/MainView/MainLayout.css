@@ -129,6 +129,11 @@ a{
   height: 37.33px;
   outline: none;
 }
+
+.profile {
+  font-size: 0.8rem;
+}
+
 /*Show navbar */
 .show{
   left: 0;
@@ -182,6 +187,11 @@ input {
 input:focus {
   outline: 0;
 }
+
+input[type="text"]:disabled {
+  cursor: not-allowed;
+}
+
 
 .searchBar input {
   background-color: transparent;

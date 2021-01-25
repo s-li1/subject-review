@@ -1,7 +1,7 @@
 import React, { useState} from 'react'
 import SubjectCard from '../Components/Card/SubjectCard';
 import Main from '../Components/MainView/MainView';
-import Pagination from '../Components/Pagination';
+import Pagination from '../Components/Pagination/Pagination';
 export default function SubjectsPage({course}) {
     let subjects = require(`../Data/${course}.json`);
    
@@ -19,7 +19,11 @@ export default function SubjectsPage({course}) {
     const[input, setInput] = useState("");
     
     const subjectsByFilter = subjects.filter((subject)=> {
-        return subject.name.toString().toLowerCase().match(input.toLowerCase());
+        try {
+            return subject.name.toString().toLowerCase().match(input.toLowerCase());
+        } catch(error) {
+            console.log(error);
+        }
     });
 
     const handleSubjectSearch = ()=> {
@@ -35,7 +39,7 @@ export default function SubjectsPage({course}) {
     }
 
     return (
-        <Main input={handleChange}>
+        <Main input={handleChange} disableSearchBar={false}>
             <div className="subject-container">
                 <SubjectCard subjectsData={handleSubjectSearch} name={course}/> 
             </div>
