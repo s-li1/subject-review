@@ -26,4 +26,12 @@ export const signInWithGoogle = () => {
         console.log(error.message);
     });
 }
+
+export const signOut = () => {
+    auth.signOut().then(()=> {
+        console.log("Signed Out");
+    }).catch((error)=> {
+        console.log(error.message);
+    });
+}
 export default firebase;
