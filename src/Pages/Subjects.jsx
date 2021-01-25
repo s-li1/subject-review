@@ -39,7 +39,7 @@ export default function SubjectsPage({course}) {
     }
 
     return (
-        <Main input={handleChange}>
+        <Main input={handleChange} disableSearchBar={false}>
             <div className="subject-container">
                 <SubjectCard subjectsData={handleSubjectSearch} name={course}/> 
             </div>

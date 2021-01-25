@@ -19,7 +19,7 @@ export default function MainView(props) {
                 <div className="header-toggle" onClick={handleSideNav} >
                     {sidebar? <BiX/> : <BiMenu/>}
                 </div>
-                <SearchBar handleChange={props.input}/>
+                <SearchBar search={props.disableSearchBar}handleChange={props.input}/>
         </div>
         <Contents open={sidebar}>
             {props.children}
