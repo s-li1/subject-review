@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { BiBookAlt, BiUserCircle} from 'react-icons/bi';
-import '../../Components/MainLayout.css';
+import '../../Components/MainView/MainLayout.css';
 import { SideBarData } from './SideBarData';
 import { signInWithGoogle, signOut } from '../../Config/Firebase/firebase';
 import { UserContext } from '../../Providers/UserProvider'

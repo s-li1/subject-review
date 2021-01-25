@@ -129,6 +129,11 @@ a{
   height: 37.33px;
   outline: none;
 }
+
+.profile {
+  font-size: 0.8rem;
+}
+
 /*Show navbar */
 .show{
   left: 0;

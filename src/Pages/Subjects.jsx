@@ -1,7 +1,7 @@
 import React, { useState} from 'react'
 import SubjectCard from '../Components/Card/SubjectCard';
 import Main from '../Components/MainView/MainView';
-import Pagination from '../Components/Pagination';
+import Pagination from '../Components/Pagination/Pagination';
 export default function SubjectsPage({course}) {
     let subjects = require(`../Data/${course}.json`);
    
