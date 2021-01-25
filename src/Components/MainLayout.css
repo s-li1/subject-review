@@ -178,6 +178,12 @@ input:focus {
   background-color: transparent;
   border: none;
   font-size: 1.05rem;
+  width: 500px;
+  
+}
+
+.searchBar {
+  width: 500px;
 }
 
 .searchBar input::placeholder {

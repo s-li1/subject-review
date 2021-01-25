@@ -12,7 +12,7 @@ export default function SideBar({open}) {
                 <div>
                     <Link to ="/" className="nav-logo">
                         <BiBookAlt className="nav-logo-icon"/>
-                        <span className="logo-name">UTS Subject Reviews</span>
+                        <span className="logo-name">UTS Subject <br/>Reviews</span>
                     </Link>
                     <div className="nav-list">
                         {SideBarData.map((item, index)=> { 

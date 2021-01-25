@@ -6,7 +6,7 @@ export default function SearchBar(props) {
     return (
         <div className="searchBar">
             <BiSearch/>
-            <input type="text" placeholder="Search Subject" onChange={props.handleChange} />
+            <input type="text" placeholder="Search Subject By Name" onChange={props.handleChange} />
         </div>
     )
 }
