@@ -23,6 +23,7 @@ export default function SubjectsPage({course}) {
             return subject.name.toString().toLowerCase().match(input.toLowerCase());
         } catch(error) {
             console.log(error);
+            return subject.name;
         }
     });
 
