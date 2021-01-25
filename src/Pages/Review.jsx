@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Posts from '../Components/Posts/Posts';
-import { firestore } from '../Config/Firebase/db_config';
+import { firestore } from '../Config/Firebase/firebase';
 import { collectionofIdsAndDocs } from '../utilities';
 import Main from '../Components/MainView/MainView';
 import Modal from '../Components/Modal/Modal';

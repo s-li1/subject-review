@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { BiBookAlt} from 'react-icons/bi';
 import '../../Components/MainLayout.css';
 import { SideBarData } from './SideBarData';
+import { signInWithGoogle } from '../../Config/Firebase/firebase';
 
 export default function SideBar({open}) {
    
@@ -22,6 +23,7 @@ export default function SideBar({open}) {
                                 <span className="nav-name">{item.title}</span>
                             </Link>)
                         })}
+                        <button onClick={signInWithGoogle}>Sign In</button>
                     </div>
                 </div>
             </nav>
