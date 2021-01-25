@@ -19,7 +19,11 @@ export default function SubjectsPage({course}) {
     const[input, setInput] = useState("");
     
     const subjectsByFilter = subjects.filter((subject)=> {
-        return subject.name.toString().toLowerCase().match(input.toLowerCase());
+        try {
+            return subject.name.toString().toLowerCase().match(input.toLowerCase());
+        } catch(error) {
+            console.log(error);
+        }
     });
 
     const handleSubjectSearch = ()=> {
