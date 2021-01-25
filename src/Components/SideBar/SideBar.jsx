@@ -1,11 +1,12 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
-import { BiBookAlt} from 'react-icons/bi';
+import { BiBookAlt, BiUserCircle} from 'react-icons/bi';
 import '../../Components/MainLayout.css';
 import { SideBarData } from './SideBarData';
-
+import { signInWithGoogle, signOut } from '../../Config/Firebase/firebase';
+import { UserContext } from '../../Providers/UserProvider'
 export default function SideBar({open}) {
-   
+    const user = useContext(UserContext);
     return (
         <div className={open ? "navbar show" : "navbar" } id="nav-bar">
             <nav className="nav">
@@ -23,6 +24,14 @@ export default function SideBar({open}) {
                             </Link>)
                         })}
                     </div>
+                    {user ? <button className="authentication" onClick={signOut}><BiUserCircle className="nav-icon"/> <span className="nav-name">Sign Out</span></button> : <button className="authentication" onClick={signInWithGoogle}><BiUserCircle className="nav-icon"/>Sign In</button>}
+                    {
+                    user && open ? 
+                        <div className="profile">
+                            <p>{user.email}</p>
+                        </div> 
+                    :null
+                    }
                 </div>
             </nav>
         </div>

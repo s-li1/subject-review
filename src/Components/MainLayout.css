@@ -77,7 +77,7 @@ a{
   overflow: hidden;
 }
 
-.nav-logo, .nav-link{
+.nav-logo, .nav-link, .authentication {
   display: grid;
   grid-template-columns: max-content max-content;
   align-items: center;
@@ -94,7 +94,7 @@ a{
   color: var(--white-color);
 }
 
-.nav-link {
+.nav-link, .authentication, .profile {
   position: relative;
   color: var(--first-color-light);
   margin-bottom: 1.5rem;
@@ -111,7 +111,7 @@ a{
 
 
 
-.nav-link:hover{
+.nav-link:hover, .authentication:hover{
   color: var(--first-color);
   background-color: var(--white-color);
 }
@@ -120,6 +120,15 @@ a{
   font-size: 1.25rem;
 }
 
+.authentication {
+  background-color: var(--first-color);
+  border: none;
+  cursor: pointer;
+  font-size: 1rem;
+  width: 192px;
+  height: 37.33px;
+  outline: none;
+}
 /*Show navbar */
 .show{
   left: 0;

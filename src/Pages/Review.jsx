@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import Posts from '../Components/Posts/Posts';
-import { firestore } from '../Config/Firebase/db_config';
+import { firestore } from '../Config/Firebase/firebase';
 import { collectionofIdsAndDocs } from '../utilities';
 import Main from '../Components/MainView/MainView';
 import Modal from '../Components/Modal/Modal';
@@ -60,7 +60,7 @@ if(!subject) {
                     <p>{subject.description}</p>
                 </div>
                 <div className="header-guidelines-container">
-                <h1>Recent Reviews</h1>
+                <h1>Write a Review</h1>
                 <button className="modal-opener" onClick={openModalHandler}>Read our guidelines</button>
                 </div>
                 <Modal show={modal} close={closeModalHandler}/>
