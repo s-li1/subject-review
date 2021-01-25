@@ -94,7 +94,7 @@ a{
   color: var(--white-color);
 }
 
-.nav-link, .authentication {
+.nav-link, .authentication, .profile {
   position: relative;
   color: var(--first-color-light);
   margin-bottom: 1.5rem;

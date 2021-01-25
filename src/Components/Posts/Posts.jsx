@@ -17,7 +17,9 @@ export default function Posts({posts, onCreate}) {
     return (
         <div>
             <section className = "posts">
-                {(user && isSignedInWithUTSAccount()) ? <AddPost onCreate={onCreate}/> : user ? <p>Currently signed with <b>{user.email}</b>. <br/> Sign in with your UTS student email via Google to write a review <br/> eg.12345678@student.uts.edu.au</p> : <p>Sign in with your UTS student email via Google to write a review <br/> eg.12345678@student.uts.edu.au</p>}
+                {
+                    (user && isSignedInWithUTSAccount()) ? <AddPost onCreate={onCreate}/> : user ? <p>Currently signed with <b>{user.email}</b>. <br/> Sign in with your UTS student email via Google to write a review <br/> eg.12345678@student.uts.edu.au</p> : <p>Sign in with your UTS student email via Google to write a review <br/> eg.12345678@student.uts.edu.au</p>
+                }
                 <h1>Recent Reviews</h1>
                 {posts.map( post => <Post {...post} key={post.id} />)}
             </section>

@@ -25,6 +25,13 @@ export default function SideBar({open}) {
                         })}
                     </div>
                     {user ? <button className="authentication" onClick={signOut}><BiUserCircle className="nav-icon"/> <span className="nav-name">Sign Out</span></button> : <button className="authentication" onClick={signInWithGoogle}><BiUserCircle className="nav-icon"/>Sign In</button>}
+                    {
+                    user && open ? 
+                        <div className="profile">
+                            <p>{user.email}</p>
+                        </div> 
+                    :null
+                    }
                 </div>
             </nav>
         </div>
