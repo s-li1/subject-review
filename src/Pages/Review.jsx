@@ -59,9 +59,12 @@ if(!subject) {
                     </h1>
                     <p>{subject.description}</p>
                 </div>
-                <div className="star-average">
-                    Current Rating: 
-                    {isNaN(averageRating) ? 0 : averageRating}
+                <div className="rating-average-container">
+                    Student Feedback: 
+                    <div className="rating-average">
+                        <span className="rating-num">{isNaN(averageRating) ? 0 : averageRating} </span>
+                        rating
+                    </div>
                 </div>
                 <div className="header-guidelines-container">
                 <h1>Write a Review</h1>

@@ -6,6 +6,7 @@
   --first-color: #0f4beb;
   --white-color: #fafafa;
   --first-color-light: #ECECEF;
+  --yellow-color: #f1c40f;
   
 
   /* Z index */
@@ -315,6 +316,16 @@ input[type="text"]:disabled {
   /*Add padding body desktop*/
   .isPushed{
     padding-left: calc(var(--nav-width) + 188px);
+  }
+
+  .rating-average-container {
+    font-size: 1.5rem;
+    font-weight: 700;
+  }
+
+  .rating-average .rating-num {
+    font-size: 3.5rem;
+    color: var(--first-color);
   }
 
   .subject-container {

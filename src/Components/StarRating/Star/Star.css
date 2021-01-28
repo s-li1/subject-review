@@ -6,5 +6,5 @@
 }
 
 .selected {
-    color: #f1c40f;
+    color: var(--yellow-color);
 }
