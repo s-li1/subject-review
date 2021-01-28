@@ -8,10 +8,11 @@ import { Redirect } from 'react-router-dom';
 export default function Review({match}) {
 
 const getCourseName = match.path.replace("/:subjectId", "").replace("/", "");
-const [posts, setPosts] = useState([
-]);
+
+const [posts, setPosts] = useState([]);
 
 let allSubjects = require(`../Data/${getCourseName}.json`);
+
 useEffect(()=> {
     const unsubscribe = firestore.collection(`${match.params.subjectId}`).orderBy("date", "desc").onSnapshot( snapshot => {
     const posts = snapshot.docs.map(collectionofIdsAndDocs);
@@ -23,11 +24,8 @@ useEffect(()=> {
 const handleCreate = async (post) => {
     post.date = new Date();
     const documentRef = await firestore.collection(`${match.params.subjectId}`).add(post);
-    
     const document = await documentRef.get();
-
     const newPost = collectionofIdsAndDocs(document);
-
     setPosts([newPost, ...posts])
     
 };
@@ -42,9 +40,11 @@ const closeModalHandler = ()=> {
     setModalOpen(!modal);
 }
 
-
-
 const subject = allSubjects.find((subject)=> subject.id===match.params.subjectId);
+
+const averageRating = posts.filter(post=> post.rating).map(post => post.rating).reduce((accumulator,currentValue)=>accumulator+currentValue, 0) / posts.length;
+
+
 if(!subject) {
     return <Redirect to='/not-found'/>
 }
@@ -58,6 +58,10 @@ if(!subject) {
                         {subject.name}
                     </h1>
                     <p>{subject.description}</p>
+                </div>
+                <div className="star-average">
+                    Current Rating: 
+                    {isNaN(averageRating) ? 0 : averageRating}
                 </div>
                 <div className="header-guidelines-container">
                 <h1>Write a Review</h1>
